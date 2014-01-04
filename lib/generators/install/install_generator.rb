@@ -2,6 +2,10 @@ class InstallGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def base_prepare
+    #git :init
+    #git add: '.'
+    #git commit: '-m Init commit'
+
     gem 'haml-rails'
     gem 'html2haml'
     gem 'rails_admin'
@@ -51,6 +55,24 @@ class InstallGenerator < Rails::Generators::Base
     rake 'db:fill_my_config'
     rake 'db:fill_users'
 
+    copy_file 'config/initializers/rails_admin.rb', 'config/initializers'
+    copy_file 'config/locales/ru.yml', 'config/locales'
+    copy_file 'config/locales/devise.ru.yml', 'config/locales'
+    copy_file 'config/locales/rails_admin.ru.yml', 'config/locales'
+    copy_file 'config/locales/kaminary.yml', 'config/locales'
+    copy_file 'app/controllers/application_controller.rb', 'app/controllers'
+
+    application do
+      "config.time_zone = 'Ekaterinburg'"
+      "config.i18n.default_locale = :ru"
+    end
+
+    #git add: '.'
+    #git commit: '-m Base prepare completed'
+
+  end
+
+  def news
     #if yes?("Would you like to install Haml?")
   end
 
