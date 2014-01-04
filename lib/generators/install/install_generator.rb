@@ -1,4 +1,5 @@
 class InstallGenerator < Rails::Generators::Base
+  source_root File.expand_path('../templates', __FILE__)
 
   def base_prepare
     gem 'haml-rails'
@@ -24,7 +25,8 @@ class InstallGenerator < Rails::Generators::Base
     generate 'cancan:ability'
 
     gem_group :development do
-      gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
+      #gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
+      gem 'annotate'
       gem 'populator'
       gem 'faker'
     end
@@ -40,18 +42,18 @@ class InstallGenerator < Rails::Generators::Base
     generate 'migration', 'AddRoleIdToUsers role_id:integer'
     rake 'db:migrate'
 
-    copy_file 'templates/app/models/ability.rb', 'app/models/ability.rb'
-    copy_file 'templates/app/models/my_config.rb', 'app/models/my_config.rb'
-    copy_file 'templates/app/models/role.rb', 'app/models/role.rb'
-    copy_file 'templates/app/models/user.rb', 'app/models/user.rb'
+    copy_file 'app/models/ability.rb', 'app/models/ability.rb'
+    copy_file 'app/models/my_config.rb', 'app/models/my_config.rb'
+    copy_file 'app/models/role.rb', 'app/models/role.rb'
+    copy_file 'app/models/user.rb', 'app/models/user.rb'
 
-    copy_file "templates/tasks/base_fill.rake", "lib/tasks/base_fill.rake"
+    copy_file 'tasks/base_fill.rake', 'lib/tasks/base_fill.rake'
     rake 'db:fill_my_config'
     rake 'db:fill_users'
 
     #if yes?("Would you like to install Haml?")
   end
 
-  #install_haml if yes?('Install haml?')
+
 
 end
