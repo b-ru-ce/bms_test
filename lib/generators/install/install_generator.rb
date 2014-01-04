@@ -2,6 +2,7 @@ class InstallGenerator < Rails::Generators::Base
 
   def base_prepare
     gem 'haml-rails'
+    gem 'html2haml'
     gem 'rails_admin'
     gem 'cancan'
     run('bundle install')
@@ -23,7 +24,7 @@ class InstallGenerator < Rails::Generators::Base
     generate 'cancan:ability'
 
     gem_group :development do
-      gem 'annotate'
+      gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
       gem 'populator'
       gem 'faker'
     end
@@ -33,6 +34,20 @@ class InstallGenerator < Rails::Generators::Base
     generate 'devise:views'
 
     run('for file in app/views/devise/**/*.erb; do html2haml -e $file ${file%erb}haml && rm $file; done')
+
+    generate 'model', 'MyConfig key:string key_ru:srting value:text'
+    generate 'model', 'Role name:string'
+    generate 'migration', 'AddRoleIdToUsers role_id:integer'
+    rake 'db:migrate'
+
+    copy_file 'templates/app/models/ability.rb', 'app/models/ability.rb'
+    copy_file 'templates/app/models/my_config.rb', 'app/models/my_config.rb'
+    copy_file 'templates/app/models/role.rb', 'app/models/role.rb'
+    copy_file 'templates/app/models/user.rb', 'app/models/user.rb'
+
+    copy_file "templates/tasks/base_fill.rake", "lib/tasks/base_fill.rake"
+    rake 'db:fill_my_config'
+    rake 'db:fill_users'
 
     #if yes?("Would you like to install Haml?")
   end
