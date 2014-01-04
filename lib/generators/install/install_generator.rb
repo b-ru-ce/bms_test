@@ -55,12 +55,12 @@ class InstallGenerator < Rails::Generators::Base
     rake 'db:fill_my_config'
     rake 'db:fill_users'
 
-    copy_file 'config/initializers/rails_admin.rb', 'config/initializers'
-    copy_file 'config/locales/ru.yml', 'config/locales'
-    copy_file 'config/locales/devise.ru.yml', 'config/locales'
-    copy_file 'config/locales/rails_admin.ru.yml', 'config/locales'
-    copy_file 'config/locales/kaminary.yml', 'config/locales'
-    copy_file 'app/controllers/application_controller.rb', 'app/controllers'
+    copy_file 'config/initializers/rails_admin.rb', 'config/initializers/rails_admin.rb'
+    copy_file 'config/locales/ru.yml', 'config/locales/ru.yml'
+    copy_file 'config/locales/devise.ru.yml', 'config/locales/devise.ru.yml'
+    copy_file 'config/locales/rails_admin.ru.yml', 'config/locales/rails_admin.ru.yml'
+    copy_file 'config/locales/kaminary.yml', 'config/locales/kaminary.yml'
+    copy_file 'app/controllers/application_controller.rb', 'app/controllers/application_controller.rb'
 
     application do
       "config.time_zone = 'Ekaterinburg'"
