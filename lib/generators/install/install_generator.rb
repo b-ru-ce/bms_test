@@ -1,7 +1,9 @@
 class InstallGenerator < Rails::Generators::Base
 
   def install_haml
-    gem 'haml-rails'
+    gem 'haml-rails' if yes?("Would you like to install Haml?")
+    gem 'rails_admin'
+    gem "cancan"
     run('bundle install')
   end
 
