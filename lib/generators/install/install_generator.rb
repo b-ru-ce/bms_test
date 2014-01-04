@@ -37,7 +37,7 @@ class InstallGenerator < Rails::Generators::Base
 
     run('for file in app/views/devise/**/*.erb; do html2haml -e $file ${file%erb}haml && rm $file; done')
 
-    generate 'model', 'MyConfig key:string key_ru:srting value:text'
+    generate 'model', 'MyConfig key:string key_ru:string value:text'
     generate 'model', 'Role name:string'
     generate 'migration', 'AddRoleIdToUsers role_id:integer'
     rake 'db:migrate'
