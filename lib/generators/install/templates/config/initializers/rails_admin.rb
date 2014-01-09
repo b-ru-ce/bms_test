@@ -49,5 +49,46 @@ RailsAdmin.config do |config|
   # Now you probably need to tour the wiki a bit: https://github.com/sferik/rails_admin/wiki
   # Anyway, here is how RailsAdmin saw your application's models when you ran the initializer:
 
-  # model configuration end
+  config.model MyConfig do
+
+    list do
+      field :key_ru
+      field :value
+    end
+
+    show do
+      field :id
+      field :key do
+        visible do
+          bindings[:view]._current_user.role?('superadmin')
+        end
+      end
+      field :key_ru
+      field :value
+      field :created_at
+      field :updated_at
+    end
+
+    edit do
+      field :key do
+        visible do
+          bindings[:view]._current_user.role?('superadmin')
+        end
+      end
+      field :key_ru do
+        visible do
+          bindings[:view]._current_user.role?('superadmin')
+        end
+      end
+      field :value
+    end
+  end
+
+  config.model User do
+    edit do
+      field :email
+      field :password
+      field :password_confirmation
+    end
+  end
 end
