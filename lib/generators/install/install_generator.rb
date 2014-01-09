@@ -93,7 +93,7 @@ class InstallGenerator < Rails::Generators::Base
       #rake 'db:fill_news'
 
       copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
-      inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
+      inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb', "r:UTF-8"), after: "RailsAdmin.config do |config|\n"
     end
   end
 
