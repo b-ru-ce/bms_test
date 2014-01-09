@@ -91,7 +91,7 @@ class InstallGenerator < Rails::Generators::Base
       #copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
       #rake 'db:fill_news'
 
-      insert_into_file 'config/initializers/rails_admin.rb', File.read('config/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
+      insert_into_file 'config/initializers/rails_admin.rb', File.read('lib/generators/templates/config/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
     end
   end
 
