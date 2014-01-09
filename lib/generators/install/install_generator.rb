@@ -48,7 +48,7 @@ class InstallGenerator < Rails::Generators::Base
     #rake 'db:migrate'
 
     #copy_file 'app/models/ability.rb', 'app/models/ability.rb'
-    copy_entry 'app/models/my_config.rb', 'app/models/my_config.rb'
+    copy_file 'app/models/my_config.rb', 'app/models/my_config.rb'
     #copy_file 'app/models/role.rb', 'app/models/role.rb'
     #copy_file 'app/models/user.rb', 'app/models/user.rb'
     #
