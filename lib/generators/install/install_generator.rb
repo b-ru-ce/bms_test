@@ -61,6 +61,7 @@ class InstallGenerator < Rails::Generators::Base
     copy_file 'config/locales/rails_admin.ru.yml', 'config/locales/rails_admin.ru.yml'
     copy_file 'config/locales/kaminary.yml', 'config/locales/kaminary.yml'
     copy_file 'app/controllers/application_controller.rb', 'app/controllers/application_controller.rb'
+    copy_file 'app/helpers/application_helper.rb', 'app/helpers/application_helper.rb'
 
     application do
       "config.time_zone = 'Ekaterinburg'"
@@ -91,7 +92,7 @@ class InstallGenerator < Rails::Generators::Base
       rake 'db:fill_news'
 
       #попробовать потом вынести код в отдельный файл
-      inject_into_file 'config/initializers/rails_admin.rb', after: "################  Model configuration  ################\n" do
+      inject_into_file 'config/initializers/rails_admin.rb', after: "################  Model configuration  ################" do
         <<-'RUBY'
         config.model Article do
           navigation_label 'Контент'
