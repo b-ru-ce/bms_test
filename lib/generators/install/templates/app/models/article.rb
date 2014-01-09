@@ -4,7 +4,6 @@ class Article < ActiveRecord::Base
 
   dragonfly_accessor :image
 
-
   validates :title, :presence => true
   validates :date, :presence => true
 
@@ -18,12 +17,8 @@ class Article < ActiveRecord::Base
   end
 
   def html_title
-    if self.title_of_window.strip.blank?
-      default_title = MyConfig.get_config 'default_title'
-      default_title + ' - ' + self.title
-    else
-      self.title_of_window
-    end
+    (title_of_window and !title_of_window.strip.blank?) ?
+        title_of_window : (MyConfig.get_config 'default_title' + ' - ' + self.title)
   end
 
 end

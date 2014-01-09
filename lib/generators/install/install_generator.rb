@@ -92,7 +92,7 @@ class InstallGenerator < Rails::Generators::Base
       rake 'db:fill_news'
 
       #попробовать потом вынести код в отдельный файл
-      inject_into_file 'config/initializers/rails_admin.rb', after: "################  Model configuration  ################" do
+      inject_into_file 'config/initializers/rails_admin.rb', after: "RailsAdmin.config do |config|\n" do
         <<-'RUBY'
         config.model Article do
           navigation_label 'Контент'
