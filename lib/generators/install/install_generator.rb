@@ -6,27 +6,27 @@ class InstallGenerator < Rails::Generators::Base
     #git add: '.'
     #git commit: '-m Init commit'
 
-    gem 'haml-rails'
-    gem 'html2haml'
-    gem 'rails_admin'
-    gem 'cancan'
-    run('bundle install')
-
-    generate 'rails_admin:install'
-    rake 'db:migrate'
-
-    gem 'dragonfly', '~> 1.0.0'
-    gem 'ckeditor'
-    run('bundle install')
-
-    generate 'dragonfly'
-    gem 'paperclip'
-    run('bundle install')
-
-    generate 'ckeditor:install', '--orm=active_record --backend=paperclip'
-    rake 'db:migrate'
-
-    generate 'cancan:ability'
+    #gem 'haml-rails'
+    #gem 'html2haml'
+    #gem 'rails_admin'
+    #gem 'cancan'
+    #run('bundle install')
+    #
+    #generate 'rails_admin:install'
+    #rake 'db:migrate'
+    #
+    #gem 'dragonfly', '~> 1.0.0'
+    #gem 'ckeditor'
+    #run('bundle install')
+    #
+    #generate 'dragonfly'
+    #gem 'paperclip'
+    #run('bundle install')
+    #
+    #generate 'ckeditor:install', '--orm=active_record --backend=paperclip'
+    #rake 'db:migrate'
+    #
+    #generate 'cancan:ability'
 
     #gem_group :development do
     #  #gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
@@ -91,7 +91,8 @@ class InstallGenerator < Rails::Generators::Base
       #copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
       #rake 'db:fill_news'
 
-      insert_into_file 'config/initializers/rails_admin.rb', File.read('lib/generators/install/templates/config/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
+      copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
+      insert_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
     end
   end
 
