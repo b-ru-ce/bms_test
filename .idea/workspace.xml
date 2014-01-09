@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="" />
+    <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml" afterPath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml" />
+    </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389263327083" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389264992136" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389263956758" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265015243" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
@@ -18,6 +22,8 @@
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389255534022" ignored="false" />
     <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389256314778" ignored="false" />
     <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389258576747" ignored="false" />
+    <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265230996" ignored="false" />
+    <file path="/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265022298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +43,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="841" selection-end="841" vertical-scroll-proportion="0.5750708">
+            <state line="81" column="129" selection-start="2707" selection-end="2707" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_rails_admin_news.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rails_admin.ru.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="24" selection-start="160" selection-end="160" vertical-scroll-proportion="0.14603616">
               <folding />
             </state>
           </provider>
@@ -118,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/tmbl.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_users.rake" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_my_config.rake" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/tasks/base_fill.rake" />
@@ -130,10 +153,11 @@
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml" />
       </list>
     </option>
   </component>
@@ -332,6 +356,10 @@
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -390,6 +418,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,9 +981,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="2" selection-start="677" selection-end="677" vertical-scroll-proportion="0.8344923">
+        <state line="22" column="101" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -929,16 +995,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="101" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
+        <state line="81" column="129" selection-start="2707" selection-end="2707" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="46" selection-start="841" selection-end="841" vertical-scroll-proportion="0.5750708">
+        <state line="24" column="19" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="160" selection-end="160" vertical-scroll-proportion="0.14603616">
           <folding />
         </state>
       </provider>

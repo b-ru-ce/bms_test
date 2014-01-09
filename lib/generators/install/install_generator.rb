@@ -79,7 +79,7 @@ class InstallGenerator < Rails::Generators::Base
       generate 'controller', 'Articles'
       copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb'
 
-      generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string'
+      generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string meta:text'
       rake 'db:migrate'
       copy_file 'app/models/article.rb', 'app/models/article.rb'
 

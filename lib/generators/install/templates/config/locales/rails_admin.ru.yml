@@ -3,9 +3,22 @@ ru:
     models:
       page: "Страницы"
       user: "Пользователи"
-
+      my_config: 'Общие настройки'
+      role: 'Роли'
+      article: 'Новости'
     attributes:
-
+      my_config:
+        id: "№"
+        key: 'Ключ'
+        key_ru: 'Что?'
+        value: 'Значение'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      role:
+        id: "№"
+        name: 'Имя'
+        created_at: "Создание"
+        updated_at: "Обновление"
       user:
         id: "№"
         password: "Пароль"
@@ -19,8 +32,8 @@ ru:
         last_sign_in_at: "Последний вход"
         current_sign_in_ip: "Текущий IP"
         last_sign_in_ip: "Предыдущий IP"
-        created_at: "Создан"
-        updated_at: "Обновлен"
+        created_at: "Создание"
+        updated_at: "Обновление"
       page:
         id: "№"
         title: "Заголовок"
@@ -29,6 +42,17 @@ ru:
         sort: "№ по порядку"
         purpose: 'Назначение'
         menu: 'В каком меню отображать'
+        meta: 'Мета теги'
+        title_of_window: 'Заголовок окна'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      article:
+        id: "№"
+        title: "Заголовок"
+        short_text: 'Короткий текст'
+        text: "Текст"
+        date: 'Дата'
+        image: 'Изображение'
         meta: 'Мета теги'
         title_of_window: 'Заголовок окна'
         created_at: "Создание"
