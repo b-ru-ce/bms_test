@@ -28,7 +28,6 @@ class InstallGenerator < Rails::Generators::Base
     #
     #generate 'cancan:ability'
 
-    #gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
     gem_group :development do
       gem 'annotate'
       gem 'populator'
@@ -43,10 +42,10 @@ class InstallGenerator < Rails::Generators::Base
     #
     #run('for file in app/views/devise/**/*.erb; do html2haml -e $file ${file%erb}haml && rm $file; done')
     #
-    #generate 'model', 'MyConfig key:string key_ru:string value:text'
+    generate 'model', 'MyConfig key:string key_ru:string value:text'
     #generate 'model', 'Role name:string'
     #generate 'migration', 'AddRoleIdToUsers role_id:integer'
-    #rake 'db:migrate'
+    rake 'db:migrate'
     #
     #copy_file 'app/models/ability.rb', 'app/models/ability.rb'
     #copy_file 'app/models/my_config.rb', 'app/models/my_config.rb'
