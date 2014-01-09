@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="116" selection-start="3631" selection-end="3631" vertical-scroll-proportion="0.723796">
+            <state line="93" column="99" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_rails_admin_news.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_rails_admin_news.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="3" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+            <state line="38" column="6" selection-start="671" selection-end="671" vertical-scroll-proportion="0.7927677">
               <folding />
             </state>
           </provider>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
       </list>
     </option>
   </component>
@@ -892,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="3" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="86" selection-start="894" selection-end="894" vertical-scroll-proportion="0.4674221">
@@ -908,7 +901,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="116" selection-start="3631" selection-end="3631" vertical-scroll-proportion="0.723796">
+        <state line="93" column="99" selection-start="3507" selection-end="3507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="671" selection-end="671" vertical-scroll-proportion="0.7927677">
           <folding />
         </state>
       </provider>
