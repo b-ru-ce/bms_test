@@ -34,8 +34,7 @@ class InstallGenerator < Rails::Generators::Base
     #  gem 'populator'
     #  gem 'faker'
     #end
-    run('bundle pack')
-    run('bundle install --path vendor/cache')
+    run('rvmsudo bundle install')
 
     #generate 'kaminari:views', 'default'
     #generate 'devise:views'
