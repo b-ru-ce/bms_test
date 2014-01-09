@@ -86,7 +86,7 @@ class InstallGenerator < Rails::Generators::Base
       copy_file 'app/views/articles/index.html.haml', 'app/views/articles/index.html.haml'
       copy_file 'app/views/articles/show.html.haml', 'app/views/articles/show.html.haml'
       route "get 'news' => 'articles#index'"
-      route "get 'articles/:id-:alias' => 'articles#show'"
+      route "get 'news/:id-:alias' => 'articles#show'"
 
       copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
       rake 'db:fill_news'

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +12,7 @@
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389258177198" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389258565803" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
@@ -20,7 +21,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389252701306" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389255534022" ignored="false" />
     <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389256314778" ignored="false" />
-    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389256457243" ignored="false" />
+    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389258576747" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="40" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.73324215">
+            <state line="88" column="22" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="article.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="26" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+            <state line="15" column="10" selection-start="314" selection-end="314" vertical-scroll-proportion="0.30241936">
               <folding />
             </state>
           </provider>
@@ -125,9 +126,9 @@
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
       </list>
     </option>
   </component>
@@ -870,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/my_config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -900,7 +894,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="40" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.73324215">
+        <state line="88" column="22" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="314" selection-end="314" vertical-scroll-proportion="0.30241936">
           <folding />
         </state>
       </provider>
