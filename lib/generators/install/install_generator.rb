@@ -36,6 +36,7 @@ class InstallGenerator < Rails::Generators::Base
     end
     run('bundle install')
     generate 'annotate:install'
+    gsub_file 'lib/tasks/auto_annotate_models.rake', 'before', 'after'
 
     #generate 'kaminari:views', 'default'
     #generate 'devise:views'
