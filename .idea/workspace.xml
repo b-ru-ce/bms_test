@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
     </list>
     <ignored path="bms_test.iws" />
@@ -45,7 +44,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="128" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.723796">
+            <state line="95" column="14" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.723796">
               <folding />
             </state>
           </provider>
@@ -1062,7 +1061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="128" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.723796">
+        <state line="95" column="14" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.723796">
           <folding />
         </state>
       </provider>
