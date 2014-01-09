@@ -1,6 +1,6 @@
 
   config.model Article do
-    navigation_label 'Контент'
+    #navigation_label 'Контент'
     weight -1
 
     list do
