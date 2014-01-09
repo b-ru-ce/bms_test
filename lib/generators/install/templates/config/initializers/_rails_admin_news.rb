@@ -20,7 +20,7 @@
       end
 
       group :seo do
-
+        #label "SEO-оптимизация"
         field :title_of_window
         field :meta
       end
