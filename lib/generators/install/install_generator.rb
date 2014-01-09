@@ -28,12 +28,12 @@ class InstallGenerator < Rails::Generators::Base
     #
     #generate 'cancan:ability'
 
-    gem_group :development do
-      gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
-      #gem 'annotate'
-      gem 'populator'
-      gem 'faker'
-    end
+    gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
+    #gem_group :development do
+    #  #gem 'annotate'
+    #  gem 'populator'
+    #  gem 'faker'
+    #end
     run('bundle install')
 
     #generate 'kaminari:views', 'default'
