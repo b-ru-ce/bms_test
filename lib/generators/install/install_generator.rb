@@ -34,7 +34,7 @@ class InstallGenerator < Rails::Generators::Base
     #  gem 'populator'
     #  gem 'faker'
     #end
-    run('bundle update annotate')
+    run('bundle --deployment')
     run('bundle install')
 
     #generate 'kaminari:views', 'default'
