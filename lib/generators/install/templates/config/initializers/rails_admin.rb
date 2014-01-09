@@ -50,6 +50,8 @@ RailsAdmin.config do |config|
   # Anyway, here is how RailsAdmin saw your application's models when you ran the initializer:
 
   config.model MyConfig do
+    navigation_label 'Общее'
+    weight -2
 
     list do
       field :key_ru
@@ -85,7 +87,11 @@ RailsAdmin.config do |config|
   end
 
   config.model User do
+    navigation_label 'Общее'
+    weight -3
+
     edit do
+      field :role
       field :email
       field :password
       field :password_confirmation

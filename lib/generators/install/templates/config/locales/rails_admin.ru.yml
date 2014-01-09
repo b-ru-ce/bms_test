@@ -17,6 +17,7 @@ ru:
       role:
         id: "№"
         name: 'Имя'
+        users: 'Пользователи'
         created_at: "Создание"
         updated_at: "Обновление"
       user:
@@ -32,6 +33,7 @@ ru:
         last_sign_in_at: "Последний вход"
         current_sign_in_ip: "Текущий IP"
         last_sign_in_ip: "Предыдущий IP"
+        role: 'Права'
         created_at: "Создание"
         updated_at: "Обновление"
       page:
