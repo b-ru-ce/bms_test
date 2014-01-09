@@ -28,14 +28,14 @@ class InstallGenerator < Rails::Generators::Base
     #
     #generate 'cancan:ability'
 
-    gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
-    #gem_group :development do
-    #  #gem 'annotate'
-    #  gem 'populator'
-    #  gem 'faker'
-    #end
-    run('bundle --deployment')
+    #gem 'annotate', git: 'git://github.com/jeremyolliver/annotate_models.git', branch: 'rake_compatibility'
+    gem_group :development do
+      gem 'annotate'
+      gem 'populator'
+      gem 'faker'
+    end
     run('bundle install')
+    generate 'annotate:install'
 
     #generate 'kaminari:views', 'default'
     #generate 'devise:views'
@@ -96,6 +96,10 @@ class InstallGenerator < Rails::Generators::Base
   #    insert_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
   #  end
   #end
+
+  def annotate
+
+  end
 
 
 
