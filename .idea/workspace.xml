@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
-    </list>
+    <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="" />
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389263327083" ignored="false" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="21" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.5736544">
+            <state line="37" column="46" selection-start="841" selection-end="841" vertical-scroll-proportion="0.5750708">
               <folding />
             </state>
           </provider>
@@ -470,6 +468,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -922,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="21" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.5736544">
+        <state line="37" column="46" selection-start="841" selection-end="841" vertical-scroll-proportion="0.5750708">
           <folding />
         </state>
       </provider>
