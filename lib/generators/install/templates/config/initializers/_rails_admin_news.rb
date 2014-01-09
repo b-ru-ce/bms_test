@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 
   config.model Article do
     navigation_label 'Контент'
