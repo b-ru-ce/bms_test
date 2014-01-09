@@ -73,16 +73,16 @@ class InstallGenerator < Rails::Generators::Base
   end
 
   def news
-    if yes?('Would you like to install module News?')
+    if yes?('Would you like to install module News? (y/n)')
       generate 'controller', 'Articles'
       copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb'
 
       generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string'
       copy_file 'app/models/article.rb', 'app/models/article.rb'
 
-      copy_file 'app/views/_article.html.haml', 'app/views/_article.html.haml'
-      copy_file 'app/views/index.html.haml', 'app/views/index.html.haml'
-      copy_file 'app/views/show.html.haml', 'app/views/show.html.haml'
+      copy_file 'app/views/articles/_article.html.haml', 'app/views/articles/_article.html.haml'
+      copy_file 'app/views/articles/index.html.haml', 'app/views/articles/index.html.haml'
+      copy_file 'app/views/articles/show.html.haml', 'app/views/articles/show.html.haml'
       route "get 'news' => 'articles#index'"
       route "get 'articles/:id-:alias' => 'articles#show'"
 
