@@ -11,7 +11,7 @@
 
     edit do
       group :main do
-        label "Главная инфомация"
+        #label "Главная инфомация"
         field :title
         field :date
         field :short_text
@@ -20,7 +20,7 @@
       end
 
       group :seo do
-        label "SEO-оптимизация"
+        #label "SEO-оптимизация"
         field :title_of_window
         field :meta
       end
