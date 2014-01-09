@@ -73,7 +73,67 @@ class InstallGenerator < Rails::Generators::Base
   end
 
   def news
-    #if yes?("Would you like to install Haml?")
+    if yes?('Would you like to install module News?')
+      generate 'controller', 'Articles'
+      copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb'
+
+      generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string'
+      copy_file 'app/models/article.rb', 'app/models/article.rb'
+
+      copy_file 'app/views/_article.html.haml', 'app/views/_article.html.haml'
+      copy_file 'app/views/index.html.haml', 'app/views/index.html.haml'
+      copy_file 'app/views/show.html.haml', 'app/views/show.html.haml'
+      route "get 'news' => 'articles#index'"
+      route "get 'articles/:id-:alias' => 'articles#show'"
+
+      copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
+      rake 'db:fill_news'
+
+      #попробовать потом вынести код в отдельный файл
+      inject_into_file 'config/initializers/rails_admin.rb', after: "################  Model configuration  ################\n" do
+        <<-'RUBY'
+        config.model Article do
+          navigation_label 'Контент'
+          weight -1
+
+          list do
+            field :date
+            field :title
+            field :short_text
+          end
+
+          edit do
+            group :main do
+              label "Главная инфомация"
+              field :title
+              field :date
+              field :short_text
+              field :text, :ck_editor
+              field :image
+            end
+
+            group :seo do
+              label "SEO-оптимизация"
+              field :title_of_window
+            end
+
+          end
+
+          show do
+            field :id
+            field :date
+            field :title
+            field :image
+            field :short_text
+            field :text
+            field :title_of_window
+            field :created_at
+            field :updated_at
+          end
+        end
+      RUBY
+      end
+    end
   end
 
 

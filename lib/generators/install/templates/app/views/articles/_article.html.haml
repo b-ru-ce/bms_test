@@ -1,0 +1,4 @@
+%h2= link_to article.title, article.to_param
+%div= article.date
+= image_tag article.image.thumb('100x100#').url if article.image_uid
+%div= article.short_text
