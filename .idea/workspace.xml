@@ -39,7 +39,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="73" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.33240613">
+            <state line="80" column="23" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.43671766">
               <folding />
             </state>
           </provider>
@@ -1052,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="73" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.33240613">
+        <state line="80" column="23" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.43671766">
           <folding />
         </state>
       </provider>
