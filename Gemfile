@@ -43,3 +43,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'bms', path: '/home/jewel-sam/poligon/gem/bms'

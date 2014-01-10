@@ -1,3 +1,9 @@
+PATH
+  remote: /home/jewel-sam/poligon/gem/bms
+  specs:
+    bms (0.0.1)
+      rails (~> 4.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -108,6 +114,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bms!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
