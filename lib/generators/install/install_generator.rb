@@ -14,7 +14,7 @@ class InstallGenerator < Rails::Generators::Base
 
   def base_prepare
     generate 'model', 'Page title:string text:text purpose:string show_in_menu:boolean menu:string meta:text title_of_window:string ancestry:string sort:integer'
-    migration_template 'db/migrate/add_ancestry_to_page', 'db/migrate/add_ancestry_to_page'
+    migration_template 'db/migrate/add_ancestry_to_page.rb', 'db/migrate/add_ancestry_to_page.rb'
     #generate 'migration', 'AddIndexPagesOnAncestry'
     #inject_into_file 'db/migrate/*add_index_pages_on_ancestry.rb', 'add_index :pages, :ancestry', after: "def change\n"
     rake 'db:migrate'
