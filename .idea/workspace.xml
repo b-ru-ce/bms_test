@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,16 +11,16 @@
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389351312766" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352243112" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/map.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834516678" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/_footer.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834554663" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342001260" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352120310" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
     <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265932307" ignored="false" />
-    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341641401" ignored="false" />
+    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352120310" ignored="false" />
     <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265901393" ignored="false" />
     <file path="/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265022298" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/assets/javascripts/main/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274777920" ignored="false" />
@@ -29,7 +30,7 @@
     <file path="$PROJECT_DIR$/../bms_app/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340258044" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342604872" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342472642" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340259365" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352074729" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/ext/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340705668" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
     <file path="/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341007105" ignored="false" />
@@ -41,6 +42,9 @@
     <file path="$PROJECT_DIR$/../bms_app/app/models/my_config.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342582940" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/role.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342588512" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/user.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342590960" ignored="false" />
+    <file path="/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352074729" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352125913" ignored="false" />
+    <file path="/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352125913" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="0" selection-start="5102" selection-end="5102" vertical-scroll-proportion="0.5963173">
+            <state line="119" column="153" selection-start="5060" selection-end="5060" vertical-scroll-proportion="0.5750708">
               <folding />
             </state>
           </provider>
@@ -427,6 +431,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -810,14 +878,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1537" height="905" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2962963" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2962963" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -920,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -983,9 +1044,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="5102" selection-end="5102" vertical-scroll-proportion="0.5963173">
+        <state line="119" column="153" selection-start="5060" selection-end="5060" vertical-scroll-proportion="0.5750708">
           <folding />
         </state>
       </provider>
