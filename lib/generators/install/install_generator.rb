@@ -75,6 +75,37 @@ class InstallGenerator < Rails::Generators::Base
 
   end
 
+  def pages
+    gem 'ancestry'
+    gem 'rails_admin_nestable'
+    run('bundle install')
+
+    generate 'controller', 'Pages'
+    copy_file 'app/controllers/pages_controller.rb', 'app/controllers/pages_controller.rb', force: true
+
+    generate 'model', 'Page title:string text:text purpose:string show_in_menu:boolean menu:string meta:text title_of_window:string ancestry:string sort:integer'
+    generate 'migration', 'AddIndexPagesOnAncestry'
+    inject_into_file 'db/migrate/*add_index_pages_on_ancestry.rb', 'add_index :pages, :ancestry', after: "def change\n"
+    rake 'db:migrate'
+    copy_file 'app/models/page.rb', 'app/models/page.rb', force: true
+
+    copy_file 'app/views/layouts/application.html.haml', 'app/views/layouts/application.html.haml'
+    run('rm app/views/layouts/application.html.erb')
+    copy_file 'app/views/layouts/menu/_menu.html.haml', 'app/views/layouts/menu/_menu.html.haml'
+    copy_file 'app/views/layouts/menu/_menu_wrapper.html.haml', 'app/views/layouts/menu/_menu_wrapper.html.haml'
+    copy_file 'app/views/pages/home.html.haml', 'app/views/pages/home.html.haml'
+    copy_file 'app/views/pages/show.html.haml', 'app/views/pages/show.html.haml'
+
+    #copy_file 'config/initializers/_rails_admin_pages.rb', 'vendor/bms/initializers/_rails_admin_pages.rb'
+    #inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_pages.rb'), after: "RailsAdmin.config do |config|\n"
+
+    route "root 'pages#home'"
+    route "get '/pages/:id-:alias' => 'pages#show', as: 'page'"
+
+    copy_file 'tasks/fill_pages.rake', 'lib/tasks/fill_pages.rake'
+    rake 'db:fill_pages'
+  end
+
   def news
     if yes?('Would you like to install module News? (y/n)')
       generate 'controller', 'Articles'
