@@ -84,7 +84,7 @@ class InstallGenerator < Rails::Generators::Base
     copy_file 'app/controllers/pages_controller.rb', 'app/controllers/pages_controller.rb', force: true
 
     generate 'model', 'Page title:string text:text purpose:string show_in_menu:boolean menu:string meta:text title_of_window:string ancestry:string sort:integer'
-    copy_file 'db/migrate/add_ancestry_to_page.rb', "db/migrate/#{Time.now.utc.strftime("%Y%m%d%H%M%S").to_i + 1}_add_ancestry_to_page.rb"
+    copy_file 'db/migrate/add_ancestry_to_page.rb', "db/migrate/#{Time.now.strftime("%Y%m%d%H%M%S").to_i + 1}_add_ancestry_to_page.rb"
     rake 'db:migrate'
     copy_file 'app/models/page.rb', 'app/models/page.rb', force: true
 
