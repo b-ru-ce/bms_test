@@ -57,6 +57,7 @@ class InstallGenerator < Rails::Generators::Base
     rake 'db:fill_users'
 
     copy_file 'config/initializers/rails_admin.rb', 'config/initializers/rails_admin.rb', force: true
+    copy_file 'config/initializers/string.rb', 'config/initializers/string.rb'
     copy_file 'config/locales/ru.yml', 'config/locales/ru.yml'
     copy_file 'config/locales/devise.ru.yml', 'config/locales/devise.ru.yml'
     copy_file 'config/locales/rails_admin.ru.yml', 'config/locales/rails_admin.ru.yml'
@@ -93,7 +94,7 @@ class InstallGenerator < Rails::Generators::Base
       rake 'db:fill_news'
 
       #copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
-      #inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb', "r:UTF-8"), after: "RailsAdmin.config do |config|\n"
+      #inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb'), after: "RailsAdmin.config do |config|\n"
     end
   end
 

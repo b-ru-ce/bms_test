@@ -2,26 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" afterPath="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389264992136" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389339739471" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389268742023" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341667616" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/map.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834516678" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/_footer.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834554663" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389252701306" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389255534022" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
     <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265932307" ignored="false" />
-    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389258576747" ignored="false" />
+    <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341641401" ignored="false" />
     <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265901393" ignored="false" />
     <file path="/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265022298" ignored="false" />
+    <file path="$PROJECT_DIR$/../../buzulukbz/app/assets/javascripts/main/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274777920" ignored="false" />
+    <file path="/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274630582" ignored="false" />
+    <file path="/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275169759" ignored="false" />
+    <file path="$PROJECT_DIR$/../../buzulukbz/app/admin/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275174881" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340258044" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442253" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340259365" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340259365" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/lib/ext/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340705668" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
+    <file path="/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341007105" ignored="false" />
+    <file path="/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341196700" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/initializers/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
+    <file path="/a.dummy" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341284389" ignored="false" />
+    <file path="/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341299672" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +62,34 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="14" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.723796">
+            <state line="59" column="74" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.3611898">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/string.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="109" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="45" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +163,6 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/my_config.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/role.rb" />
@@ -128,6 +172,7 @@
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
       </list>
     </option>
@@ -164,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -615,21 +661,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bms_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../buzulukbz" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/generators/install/templates/config/initializers" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/helpers" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/tasks" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/views" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/models" />
-      <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: bms_test">
@@ -885,7 +930,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2915825" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2962963" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -961,46 +1006,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_news.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/base_fill.rake">
@@ -1012,16 +1035,12 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/thor-0.18.1/lib/thor/actions/file_manipulation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="10" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5632823">
-          <folding />
-        </state>
+        <state line="27" column="10" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5632823" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.3.5/lib/bundler/vendor/thor/actions/create_file.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="18" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.6884562">
-          <folding />
-        </state>
+        <state line="75" column="18" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.6884562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml">
@@ -1054,14 +1073,33 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs20/io.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="13" selection-start="11023" selection-end="11023" vertical-scroll-proportion="0.33286119">
+        <state line="288" column="13" selection-start="11023" selection-end="11023" vertical-scroll-proportion="0.33286119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/string.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="109" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="14" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.723796">
+        <state line="59" column="74" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.3611898">
           <folding />
         </state>
       </provider>
