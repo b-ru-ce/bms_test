@@ -5,7 +5,7 @@ class InstallGenerator < Rails::Generators::Base
 
     copy_file 'config/initializers/rails_admin.rb', 'config/initializers/rails_admin.rb', force: true
     copy_file 'config/initializers/_rails_admin_pages.rb', 'vendor/bms/initializers/_rails_admin_pages.rb'
-    inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_pages.rb'), after: "RailsAdmin.config do |config|\n"
+    inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_pages.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"
 
     ##git :init
     ##git add: '.'

@@ -11,7 +11,7 @@
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389348737008" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389350554519" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
@@ -64,7 +64,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="121" selection-start="5614" selection-end="5614" vertical-scroll-proportion="2.6983004">
+            <state line="7" column="144" selection-start="480" selection-end="480" vertical-scroll-proportion="0.14872521">
               <folding />
             </state>
           </provider>
@@ -381,6 +381,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -493,11 +557,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor/bms/initializers" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/db/migrate" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/tasks" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/views" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/models" />
-      <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: bms_test">
@@ -915,7 +979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="121" selection-start="5614" selection-end="5614" vertical-scroll-proportion="2.6983004">
+        <state line="7" column="144" selection-start="480" selection-end="480" vertical-scroll-proportion="0.14872521">
           <folding />
         </state>
       </provider>
