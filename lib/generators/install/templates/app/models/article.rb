@@ -17,8 +17,7 @@ class Article < ActiveRecord::Base
   end
 
   def html_title
-    (title_of_window and !title_of_window.strip.blank?) ?
-        title_of_window : (MyConfig.get_config 'default_title' + ' - ' + self.title)
+    title_of_window.to_s.strip.blank? ? (MyConfig.get_config('default_title') + ' - ' + title) : title_of_window
   end
 
 end
