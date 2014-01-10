@@ -118,7 +118,7 @@ class InstallGenerator < Rails::Generators::Base
       copy_file 'app/views/articles/index.html.haml', 'app/views/articles/index.html.haml'
       copy_file 'app/views/articles/show.html.haml', 'app/views/articles/show.html.haml'
       append_file 'app/views/pages/home.html.haml', "= render partial: 'articles/article', collection: Article.last_news"
-      append_file 'app/views/pages/home.html.haml', "= link_to 'Все новости', '/articles/index'"
+      append_file 'app/views/pages/home.html.haml', "= link_to 'Все новости', '/articles/index'".force_encoding('ASCII-8BIT')
 
       route "get 'news' => 'articles#index'"
       route "get 'news/:id-:alias' => 'articles#show'"
