@@ -63,7 +63,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="56" selection-start="605" selection-end="605" vertical-scroll-proportion="0.33994335">
+            <state line="92" column="32" selection-start="3344" selection-end="3344" vertical-scroll-proportion="0.42492917">
               <folding />
             </state>
           </provider>
@@ -82,15 +82,6 @@
         <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_pages.rake">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="18" selection-start="46" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_config.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/my_config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -846,13 +837,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/string.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="109" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_news.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -953,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="605" selection-end="605" vertical-scroll-proportion="0.33994335">
+        <state line="92" column="32" selection-start="3344" selection-end="3344" vertical-scroll-proportion="0.42492917">
           <folding />
         </state>
       </provider>
