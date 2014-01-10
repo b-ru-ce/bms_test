@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +63,7 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="121" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.66005665">
+            <state line="120" column="19" selection-start="5048" selection-end="5048" vertical-scroll-proportion="0.5963173">
               <folding />
             </state>
           </provider>
@@ -986,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="121" selection-start="5228" selection-end="5228" vertical-scroll-proportion="0.66005665">
+        <state line="120" column="19" selection-start="5048" selection-end="5048" vertical-scroll-proportion="0.5963173">
           <folding />
         </state>
       </provider>
