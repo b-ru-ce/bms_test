@@ -15,11 +15,10 @@ namespace :db do
 
     Article.destroy_all
 
-    Article.populate 20 do |article|
-      article.title = Populator.words(1..3).titleize
-      article.date = 2.years.ago..Time.now
-      article.short_text = Populator.sentences(2..10)
-      article.text = Populator.sentences(20..30)
+    dates = ((Date.today - 10)..(Date.today + 10)).to_a
+    20.times do
+      article = Article.new title: Populator.words(1..3).titleize, date: dates.shuffle.first, short_text: Populator.sentences(2..10), text: Populator.sentences(20..30), image: File.new('vendor/bms/images/news.jpg')
+      article.save(:validate => false)
     end
 
   end

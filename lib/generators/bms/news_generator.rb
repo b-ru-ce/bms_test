@@ -20,6 +20,7 @@ module Bms
       route "get 'news' => 'articles#index'"
       route "get 'news/:id-:alias' => 'articles#show'"
 
+      copy_file 'app/assets/images/files/news.jpg', 'vendor/bms/images/news.jpg'
       copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
       rake 'db:fill_news'
 

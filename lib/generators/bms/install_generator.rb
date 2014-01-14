@@ -110,6 +110,7 @@ module Bms
 
     def other_modules
       generate 'bms:news' if yes?('Would you like to install module News? (y/n)')
+      generate 'bms:slider' if yes?('Would you like to install module Slider? (y/n)')
     end
 
   end

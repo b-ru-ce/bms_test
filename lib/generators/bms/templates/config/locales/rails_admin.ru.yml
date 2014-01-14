@@ -6,7 +6,17 @@ ru:
       my_config: 'Общие настройки'
       role: 'Роли'
       article: 'Новости'
+      slide: 'Слайдер'
     attributes:
+      slide:
+        id: "№"
+        title: "Заголовок"
+        text: "Текст"
+        image: 'Изображение'
+        url: 'Ссылка'
+        sort: "№ по порядку"
+        created_at: "Создание"
+        updated_at: "Обновление"
       my_config:
         id: "№"
         key: 'Ключ'
