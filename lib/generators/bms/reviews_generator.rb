@@ -20,8 +20,8 @@ module Bms
       append_file 'app/views/pages/home.html.haml', "\n%ul= render partial: 'layouts/review', collection: Review.main\n= link_to 'Все отзывы', '/reviews'".force_encoding('ASCII-8BIT')
 
       copy_file 'app/assets/images/files/review.jpg', 'vendor/bms/images/review.jpg'
-      copy_file 'tasks/fill_reviews.rake', 'lib/tasks/fill_reviews.rake'
-      rake 'db:fill_reviews'
+      copy_file 'tasks/fill_review.rake', 'lib/tasks/fill_review.rake'
+      rake 'db:fill_review'
 
       copy_file 'config/initializers/_rails_admin_reviews.rb', 'vendor/bms/initializers/_rails_admin_reviews.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_reviews.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"
