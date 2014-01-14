@@ -2,12 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/controllers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/controllers/pages_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/ability.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/my_config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/page.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/role.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/models/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/application.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu_wrapper.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/home.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/show.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_pages.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/string.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/devise.ru.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/kaminary.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/rails_admin.ru.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/config/locales/ru.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_ancestry_to_page.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/tasks/base_fill.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_pages.rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/USAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/controllers/articles_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/models/article.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/views/articles/_article.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/views/articles/index.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/views/articles/show.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/config/initializers/_rails_admin_news.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/tasks/fill_news.rake" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/install/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/install_generator.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/news/news_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/news_generator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389354528083" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389687062114" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
@@ -46,10 +79,14 @@
     <file path="$PROJECT_DIR$/../bms_app/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352125913" ignored="false" />
     <file path="/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352125913" ignored="false" />
     <file path="/USAGE" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389353925303" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389355260960" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/news_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389355260960" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/news_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357950803" ignored="false" />
     <file path="/news_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389355088912" ignored="false" />
     <file path="/Gemfile" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389355928362" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/config/initializers/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/tasks/fill_news.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +107,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
+        <entry file="file://$PROJECT_DIR$/lib/generators/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="55" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
@@ -78,82 +115,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="50" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.9582754">
+            <state line="28" column="45" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/news/news_generator.rb">
+      <file leaf-file-name="news_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/news_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_ancestry_to_page.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_ancestry_to_page.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fill_pages.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_pages.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="46" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_menu.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/home.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/application.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_menu_wrapper.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu_wrapper.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="12" column="16" selection-start="603" selection-end="603" vertical-scroll-proportion="0.24623802">
               <folding />
             </state>
           </provider>
@@ -228,6 +202,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -335,24 +310,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bms_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bms_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -439,15 +396,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../buzulukbz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bms" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -456,6 +430,9 @@
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/db/migrate" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/tasks" />
       <recent name="$PROJECT_DIR$/lib/generators/install/templates/app/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/generators" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: bms_test">
@@ -709,10 +686,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2962963" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3057239" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -721,6 +697,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -787,114 +764,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/my_config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/models/page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="3" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu_wrapper.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/tasks/fill_pages.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="46" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="1537" selection-end="1537" vertical-scroll-proportion="1.6689847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_ancestry_to_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/templates/app/views/pages/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2503477">
-          <folding />
-        </state>
+        <state line="12" column="5" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2503477" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/news/USAGE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="123" selection-end="123" vertical-scroll-proportion="0.14603616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/news/news_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/install/install_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="55" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="50" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.9582754">
+        <state line="28" column="45" selection-start="808" selection-end="808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/news_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="603" selection-end="603" vertical-scroll-proportion="0.24623802">
           <folding />
         </state>
       </provider>
