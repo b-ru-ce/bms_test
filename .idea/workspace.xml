@@ -150,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slider_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.3186969">
+            <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,10 +186,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_ancestry_to_slides.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="add_ancestry_to_slides.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.04172462">
               <folding />
             </state>
           </provider>
@@ -240,7 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/app/views/layouts/menu/_menu_wrapper.html.haml" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_pages.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_index_pages_on_ancestry.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_ancestry_to_page.rb" />
@@ -256,6 +255,7 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/slider_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_slides.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb" />
       </list>
     </option>
   </component>
@@ -1239,13 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="73" selection-start="3105" selection-end="3331" vertical-scroll-proportion="0.0">
@@ -1297,7 +1290,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.3186969">
+        <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.04172462">
           <folding />
         </state>
       </provider>
