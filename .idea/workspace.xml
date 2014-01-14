@@ -34,8 +34,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/app/views/articles/show.html.haml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/config/initializers/_rails_admin_news.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/news/templates/tasks/fill_news.rake" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/news_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/application_controller.rb" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/articles_controller.rb" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb" />
@@ -67,6 +65,8 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/tasks/fill_news.rake" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/tasks/fill_pages.rake" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_pages.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
@@ -147,10 +147,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="17" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.79480165">
+            <state line="2" column="12" selection-start="0" selection-end="38" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.65663475">
               <folding />
             </state>
           </provider>
@@ -174,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/rails_admin.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_news.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/app/models/page.rb" />
@@ -190,6 +198,7 @@
         <option value="$PROJECT_DIR$/lib/generators/slider_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
       </list>
     </option>
   </component>
@@ -813,7 +822,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="17" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.79480165">
+        <state line="2" column="12" selection-start="0" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.65663475">
           <folding />
         </state>
       </provider>

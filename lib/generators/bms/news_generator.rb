@@ -1,29 +1,34 @@
-class NewsGenerator < Rails::Generators::Base
-  source_root File.expand_path('../templates', __FILE__)
+require 'rails/generators'
 
-  def news
-    generate 'controller', 'Articles'
-    copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb', force: true
+module Bms
+  class NewsGenerator < Rails::Generators::Base
+    source_root File.expand_path('../templates', __FILE__)
 
-    generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string meta:text'
-    rake 'db:migrate'
-    copy_file 'app/models/article.rb', 'app/models/article.rb', force: true
+    def news
+      generate 'controller', 'Articles'
+      copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb', force: true
 
-    copy_file 'app/views/articles/_article.html.haml', 'app/views/articles/_article.html.haml'
-    copy_file 'app/views/articles/index.html.haml', 'app/views/articles/index.html.haml'
-    copy_file 'app/views/articles/show.html.haml', 'app/views/articles/show.html.haml'
-    append_file 'app/views/pages/home.html.haml', "= render partial: 'articles/article', collection: Article.last_news\n= link_to 'Все новости', '/news'".force_encoding('ASCII-8BIT')
+      generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string meta:text'
+      rake 'db:migrate'
+      copy_file 'app/models/article.rb', 'app/models/article.rb', force: true
 
-    route "get 'news' => 'articles#index'"
-    route "get 'news/:id-:alias' => 'articles#show'"
+      copy_file 'app/views/articles/_article.html.haml', 'app/views/articles/_article.html.haml'
+      copy_file 'app/views/articles/index.html.haml', 'app/views/articles/index.html.haml'
+      copy_file 'app/views/articles/show.html.haml', 'app/views/articles/show.html.haml'
+      append_file 'app/views/pages/home.html.haml', "= render partial: 'articles/article', collection: Article.last_news\n= link_to 'Все новости', '/news'".force_encoding('ASCII-8BIT')
 
-    copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
-    rake 'db:fill_news'
+      route "get 'news' => 'articles#index'"
+      route "get 'news/:id-:alias' => 'articles#show'"
 
-    copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
-    inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"
+      copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
+      rake 'db:fill_news'
+
+      copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
+      inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"
+    end
+
+
+
   end
-
-
 
 end
