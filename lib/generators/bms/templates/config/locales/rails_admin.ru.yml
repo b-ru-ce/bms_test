@@ -7,7 +7,19 @@ ru:
       role: 'Роли'
       article: 'Новости'
       slide: 'Слайдер'
+      review: 'Отзывы'
     attributes:
+      review:
+        id: "№"
+        name: "Имя"
+        desc: "Подпись"
+        short_text: 'Короткий текст на главной'
+        text: 'Полный текст'
+        show_on_main: 'Показывать на главной'
+        image: 'Фотография'
+        sort: "№ по порядку"
+        created_at: "Создание"
+        updated_at: "Обновление"
       slide:
         id: "№"
         title: "Заголовок"
