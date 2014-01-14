@@ -11,7 +11,7 @@ module Bms
       copy_file 'app/models/slide.rb', 'app/models/slide.rb', force: true
 
       copy_file 'app/views/layouts/_slide.html.haml', 'app/views/layouts/_slide.html.haml'
-      append_file 'app/views/pages/home.html.haml', "%ul= render partial: 'layouts/slide', collection: Slide.last"
+      append_file 'app/views/pages/home.html.haml', "\n%ul= render partial: 'layouts/slide', collection: Slide.last"
 
       copy_file 'app/assets/images/files/slider.jpg', 'vendor/bms/images/slider.jpg'
       copy_file 'tasks/fill_slides.rake', 'lib/tasks/fill_slides.rake'

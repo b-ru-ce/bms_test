@@ -62,6 +62,7 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/tasks/base_fill.rake" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/base_fill.rake" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/templates/tasks/fill_pages.rake" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_pages.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/_article.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/_article.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
@@ -118,7 +119,7 @@
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/config/initializers/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/tasks/fill_news.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
-    <file path="/slider_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690669386" ignored="false" />
+    <file path="/slider_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691328740" ignored="false" />
     <file path="/fill_slides.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690719305" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_slides.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690724568" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_news.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690736224" ignored="false" />
@@ -150,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider_generator.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="slider_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+            <state line="13" column="55" selection-start="660" selection-end="660" vertical-scroll-proportion="0.27620396">
               <folding />
             </state>
           </provider>
@@ -168,15 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_slide.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/_slide.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slide.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/slide.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -186,10 +178,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_ancestry_to_slides.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="add_ancestry_to_slides.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.04172462">
+            <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/pages/home.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -240,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/install/templates/config/initializers/_rails_admin_pages.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_index_pages_on_ancestry.rb" />
         <option value="$PROJECT_DIR$/lib/generators/install/templates/db/migrate/add_ancestry_to_page.rb" />
         <option value="$PROJECT_DIR$/lib/generators/news/USAGE" />
@@ -252,10 +252,11 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_slides.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/slider_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_slides.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.haml" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/slider_generator.rb" />
       </list>
     </option>
   </component>
@@ -558,6 +559,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -784,6 +789,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1246,13 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/_slide.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_slides.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="2" selection-start="469" selection-end="469" vertical-scroll-proportion="0.60500693">
@@ -1288,16 +1308,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+        <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/_slide.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.04172462">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="660" selection-end="660" vertical-scroll-proportion="0.27620396">
           <folding />
         </state>
       </provider>
