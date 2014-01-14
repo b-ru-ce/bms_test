@@ -106,7 +106,7 @@ class InstallGenerator < Rails::Generators::Base
   end
 
   def other_modules
-    generate 'news' if yes?('Would you like to install module News? (y/n)')
+    generate 'bms:news' if yes?('Would you like to install module News? (y/n)')
   end
 
 end
