@@ -112,11 +112,11 @@ module Bms
     end
 
     def javascript
-      directory 'app/assets/javascripts/lib', 'app/assets/javascript/lib'
-      copy_file 'app/assets/javascripts/app.js.coffee', 'app/assets/javascript/app.js.coffee'
+      directory 'app/assets/javascripts/lib', 'app/assets/javascripts/lib'
+      copy_file 'app/assets/javascripts/app.js.coffee', 'app/assets/javascripts/app.js.coffee'
       directory 'app/assets/stylesheets/lib', 'app/assets/stylesheets/lib'
-      directory 'app/assets/images/fancybox', 'app/asssets/images/fancybox'
-      directory 'app/assets/images/ui', 'app/asssets/images/ui'
+      directory 'app/assets/images/fancybox', 'app/assets/images/fancybox'
+      directory 'app/assets/images/ui', 'app/assets/images/ui'
     end
 
     def other_modules
