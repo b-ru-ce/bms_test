@@ -1,4 +1,4 @@
-%h2= link_to article.title, article.to_param
+%h2= link_to article.title, article_path(article.my_path)
 %div=l article.date, format: :default
 = image_tag article.image.thumb('100x100#').url if article.image_uid
 %div= article.short_text

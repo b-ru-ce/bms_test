@@ -1,7 +1,7 @@
 %ul
   - items.each do |item|
     %li
-      = link_to item.title, item.purpose.blank? ? page_path(item.path) : item.purpose
+      = link_to item.title, item.purpose.blank? ? page_path(item.my_path) : item.purpose
 
       - if item.has_children?
         = render :partial => 'layouts/menu/menu', :locals => {:items=>item.children}
