@@ -5,7 +5,7 @@ module Bms
     source_root File.expand_path('../templates', __FILE__)
 
     def reviews
-      generate 'controller', 'Review'
+      generate 'controller', 'Reviews'
       copy_file 'app/controllers/reviews_controller.rb', 'app/controllers/reviews_controller.rb', force: true
       run('rm app/assets/javascripts/reviews.js.coffee')
       run('rm app/assets/stylesheets/reviews.css.scss')

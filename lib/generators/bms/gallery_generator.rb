@@ -7,8 +7,8 @@ module Bms
     def gallery
       generate 'controller', 'PhotoGalleries'
       copy_file 'app/controllers/photo_galleries_controller.rb', 'app/controllers/photo_galleries_controller.rb', force: true
-      run('rm app/assets/javascript/photo_galleries.js.coffee')
-      run('rm app/assets/javascript/photo_galleries.css.scss')
+      run('rm app/assets/javascripts/photo_galleries.js.coffee')
+      run('rm app/assets/stylesheets/photo_galleries.css.scss')
       route "get 'gallery' => 'photo_galleries#index'"
       route "get '/galleries/:id-:alias' => 'photo_galleries#show', as: 'photo_gallery'"
 
