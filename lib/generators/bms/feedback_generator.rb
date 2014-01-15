@@ -17,27 +17,9 @@ module Bms
       copy_file 'app/mailers/my_mailer.rb', 'app/mailers/my_mailer.rb'
       copy_file 'app/views/my_mailer/feedback.html.haml', 'app/views/my_mailer/feedback.html.haml'
 
-      application(nil, env: "development") do
-        "config.action_mailer.delivery_method = :smtp"
-        "config.action_mailer.smtp_settings = {"
-            ":address => 'smtp.yandex.ru',"
-            ":port => 25,"
-            ":authentication => :login, "
-            ":user_name => 'no-reply@buzuluk.bz',"
-            ":password => 'L3W00i9v'"
-        "}"
-      end
-
-      application(nil, env: "production") do
-        "config.action_mailer.delivery_method = :smtp"
-        "config.action_mailer.smtp_settings = {"
-            ":address => 'smtp.yandex.ru',"
-            ":port => 25,"
-            ":authentication => :login, "
-            ":user_name => 'no-reply@buzuluk.bz',"
-            ":password => 'L3W00i9v'"
-        "}"
-      end
+      copy_file 'config/_mailer_config.rb', 'vendor/bms/initializers/_mailer_config.rb'
+      application File.read('vendor/bms/initializers/_mailer_config.rb'), env: "development"
+      application File.read('vendor/bms/initializers/_mailer_config.rb'), env: "production"
 
       generate 'model', 'Feedback name:text phone:text email:text theme:text text:text'
       rake 'db:migrate'

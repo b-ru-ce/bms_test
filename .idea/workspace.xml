@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/_mailer_config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,7 +149,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/lib/jquery-ui-1.10.3.custom.min.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389782664235" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389784105786" ignored="false" />
     <file path="/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389784036925" ignored="false" />
-    <file path="/feedback_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389787734636" ignored="false" />
+    <file path="/feedback_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389792474482" ignored="false" />
     <file path="/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389786451168" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389786428724" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -171,42 +171,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/app.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="11" selection-start="0" selection-end="10" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/feedback.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="feedback_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="34" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.786119">
+            <state line="21" column="91" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.42634562">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="feedback.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1389791785771" expanded="true" signature="399:556" placeholder="#..." />
-                <marker date="1389791785771" expanded="true" signature="921:1175" placeholder="#..." />
-                <marker date="1389791785771" expanded="true" signature="1043:1116" placeholder="do ... end" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -247,15 +243,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -283,8 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/reviews_controller.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_reviews.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/photo_galleries_controller.rb" />
@@ -298,6 +283,8 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/_mailer_config.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
       </list>
     </option>
@@ -469,6 +456,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1112,6 +1129,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1467,41 +1516,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/mailers/my_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_feedback.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="494" selection-end="494" vertical-scroll-proportion="0.64673156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/feedbacks/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/feedbacks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1525,11 +1539,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1389791785771" expanded="true" signature="399:556" placeholder="#..." />
-            <marker date="1389791785771" expanded="true" signature="921:1175" placeholder="#..." />
-            <marker date="1389791785771" expanded="true" signature="1043:1116" placeholder="do ... end" />
+            <marker date="1389792394343" expanded="true" signature="-1:-1" placeholder="#..." />
+            <marker date="1389792394343" expanded="true" signature="-1:-1" placeholder="#..." />
+            <marker date="1389792394343" expanded="true" signature="-1:-1" placeholder="do ... end" />
           </folding>
         </state>
       </provider>
@@ -1576,9 +1590,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/_mailer_config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="248" selection-end="248" vertical-scroll-proportion="0.14603616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="34" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.786119">
+        <state line="21" column="91" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.42634562">
           <folding />
         </state>
       </provider>
