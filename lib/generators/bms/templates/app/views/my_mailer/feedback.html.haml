@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+  %body
+    %p Здравствуйте!
+    %p На вашем сайте оставлено сообщение.
+    %p
+      %strong Имя:
+      = @f.name
+    %p
+      %strong Телефон:
+      = @f.phone
+    %p
+      %strong E-mail:
+      = @f.email
+    %p
+      %strong Тема:
+      = @f.theme
+    %p
+      %strong Текст:
+      = @f.text
+    %p Данные сохранены в административной панели вашего сайта.

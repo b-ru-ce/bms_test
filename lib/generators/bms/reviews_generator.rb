@@ -7,6 +7,8 @@ module Bms
     def reviews
       generate 'controller', 'Review'
       copy_file 'app/controllers/reviews_controller.rb', 'app/controllers/reviews_controller.rb', force: true
+      run('rm app/assets/javascripts/reviews.js.coffee')
+      run('rm app/assets/stylesheets/reviews.css.scss')
       route "get 'reviews' => 'reviews#index'"
 
       generate 'model', 'Review name:string desc:text short_text:text text:text image_uid:string show_on_main:boolean sort:integer ancestry:string'

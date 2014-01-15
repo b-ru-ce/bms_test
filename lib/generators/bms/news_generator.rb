@@ -7,6 +7,8 @@ module Bms
     def news
       generate 'controller', 'Articles'
       copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb', force: true
+      run('rm app/assets/javascripts/articles.js.coffee')
+      run('rm app/assets/stylesheets/articles.css.scss')
 
       generate 'model', 'Article title:text date:date image_uid:string short_text:text text:text title_of_window:string meta:text'
       rake 'db:migrate'

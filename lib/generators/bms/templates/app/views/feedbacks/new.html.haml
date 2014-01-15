@@ -1,0 +1,23 @@
+-# Set page title
+- html_title @page.html_title
+- html_meta @page.meta
+
+
+%h1= @page.title
+
+%p= raw @page.text
+
+= form_for @feedback do |f|
+  = f.label :name
+  *
+  = f.text_field :name
+  = f.label :phone
+  *
+  = f.text_field :phone
+  = f.label :email
+  = f.text_field :email
+  = f.label :theme
+  = f.text_field :theme
+  = f.label :text
+  = f.text_area :text
+  = f.submit 'Отправить'

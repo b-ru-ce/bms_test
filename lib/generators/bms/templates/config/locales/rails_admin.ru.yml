@@ -10,6 +10,7 @@ ru:
       review: 'Отзывы'
       photo_gallery: 'Фотогалерея'
       photo: 'Фотографии'
+      feedback: 'Обратная связь'
     attributes:
       photo_gallery:
         id: "№"
@@ -17,6 +18,15 @@ ru:
         photos: 'Фотографии'
         sort: "№ по порядку"
         title_of_window: 'Заголовок окна'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      feedback:
+        id: "№"
+        name: 'Имя'
+        phone: 'Телефон'
+        email: 'E-mail'
+        theme: 'Тема'
+        text: 'Текст'
         created_at: "Создание"
         updated_at: "Обновление"
       photo:
