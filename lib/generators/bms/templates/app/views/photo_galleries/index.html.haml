@@ -1,0 +1,9 @@
+%ul
+  - @galleries.each do |gallery|
+    - if gallery.main_photo
+      %li
+        = link_to photo_gallery_path(gallery.my_path) do
+          %div= gallery.title
+          = image_tag gallery.main_photo.image.thumb('100x100').url
+
+

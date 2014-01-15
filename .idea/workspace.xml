@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/images/files/review.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_reviews.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/_review.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/reviews/_review.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_reviews.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_review.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/reviews/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/review.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/reviews_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bms_test.iml" afterPath="$PROJECT_DIR$/.idea/bms_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/ru.yml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/ru.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
@@ -26,40 +16,40 @@
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695972326" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389770133218" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/map.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834516678" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/_footer.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834554663" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352120310" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
-    <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389692317181" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768228391" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389767956081" ignored="false" />
+    <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389769597641" ignored="false" />
     <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352120310" ignored="false" />
-    <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691996892" ignored="false" />
+    <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768506910" ignored="false" />
     <file path="/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265022298" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/assets/javascripts/main/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274777920" ignored="false" />
     <file path="/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274630582" ignored="false" />
     <file path="/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275169759" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/admin/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275174881" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389692317181" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342604872" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/controllers/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389753740684" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694710566" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389769598124" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768212978" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/ext/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340705668" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352786588" ignored="false" />
     <file path="/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341007105" ignored="false" />
     <file path="/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341196700" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/initializers/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341442935" ignored="false" />
-    <file path="/a.dummy" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341284389" ignored="false" />
-    <file path="/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341299672" ignored="false" />
+    <file path="/a.dummy" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768093136" ignored="false" />
+    <file path="/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389767972082" ignored="false" />
     <file path="/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694610941" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/my_config.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342582940" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/role.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342588512" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/user.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342590960" ignored="false" />
     <file path="/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694705412" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695312296" ignored="false" />
-    <file path="/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695312296" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389767762071" ignored="false" />
+    <file path="/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756200664" ignored="false" />
     <file path="/USAGE" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389353925303" ignored="false" />
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357951356" ignored="false" />
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/news_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389357950803" ignored="false" />
@@ -73,11 +63,11 @@
     <file path="/fill_slides.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690719305" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_slides.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690724568" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_news.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389690736224" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140114092649_add_ancestry_to_reviews.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691633505" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140114092649_add_ancestry_to_reviews.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="/20140114092649_add_ancestry_to_reviews.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691631996" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/review.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389753768190" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/review.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="/review.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691767310" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/config/locales/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389691996892" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/locales/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768506910" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/_review.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389692145389" ignored="false" />
     <file path="/_review.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389692141893" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/_review_full.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389692201433" ignored="false" />
@@ -87,21 +77,58 @@
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694812524" ignored="false" />
     <file path="/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694063193" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/pages/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694586087" ignored="false" />
-    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694241223" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695195407" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695752125" ignored="false" />
+    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756747479" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695208833" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/controllers/reviews_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695820010" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/reviews/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695293425" ignored="false" />
-    <file path="/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695293425" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695748266" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/db/schema.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695898250" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/reviews_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/reviews/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389757622421" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/schema.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768461966" ignored="false" />
     <file path="/reviews_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389696357448" ignored="false" />
     <file path="$PROJECT_DIR$/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389697215105" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389697215105" ignored="false" />
     <file path="$PROJECT_DIR$/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389697215105" ignored="false" />
     <file path="$PROJECT_DIR$/config/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389697215105" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/slide.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389753772370" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/slide.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140115025030_add_ancestry_to_photos.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="/20140115025030_add_ancestry_to_photos.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754252812" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140115025016_create_photos.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140114092756_add_image_uid_to_reviews.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140114092625_create_reviews.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140115024928_create_photogalleries.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/photo.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755141712" ignored="false" />
+    <file path="/photo.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755123672" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/photogallery.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754577787" ignored="false" />
+    <file path="/photogallery.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389757246521" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/photogalleries_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754798618" ignored="false" />
+    <file path="/photogalleries_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755658445" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140115030206_rename_photogalleries.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754956857" ignored="false" />
+    <file path="/20140115030206_rename_photogalleries.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754953714" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/controllers/photo_galleries_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389769833732" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/helpers/photo_galleries_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755016040" ignored="false" />
+    <file path="/temp.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755016040" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/photo_gallery.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768482013" ignored="false" />
+    <file path="/20140115030445_rename_photogallery_id_from_photos.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755101951" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140115030445_rename_photogallery_id_from_photos.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755104904" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/test/fixtures/photo_galleries.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755141712" ignored="false" />
+    <file path="/photo_galleries_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755159309" ignored="false" />
+    <file path="/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389755500782" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768103496" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/articles/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768098357" ignored="false" />
+    <file path="/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756297448" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756747479" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389757537225" ignored="false" />
+    <file path="/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389757537225" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/helpers/path_with_alias.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768204678" ignored="false" />
+    <file path="/path_with_alias.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768180421" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/menu/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768080348" ignored="false" />
+    <file path="/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768079026" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/log/development.log" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389769741348" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/locales/ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768833172" ignored="false" />
+    <file path="/ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768833172" ignored="false" />
+    <file path="/gallery_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389770488816" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,37 +148,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fill_slides.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_slides.rake">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_rails_admin_gallery.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_gallery.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.16129032">
+            <state line="64" column="5" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
+      <file leaf-file-name="rails_admin.ru.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="190" selection-start="979" selection-end="1008" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
+      <file leaf-file-name="add_ancestry_to_photos.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_photos.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fill_gallery.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_gallery.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +196,43 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="66" selection-start="4631" selection-end="4631" vertical-scroll-proportion="0.0">
+            <state line="69" column="82" selection-start="2579" selection-end="2579" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_generator.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="69" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="116" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.5736544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path_with_alias.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/path_with_alias.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,10 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/slider_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/install_generator.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_slides.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_slides.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_news.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb" />
@@ -197,9 +265,13 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/reviews_controller.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_reviews.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/photo_galleries_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_gallery.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" />
       </list>
     </option>
   </component>
@@ -252,6 +324,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,6 +436,210 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -430,11 +724,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/images/files" />
+      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/models" />
+      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers" />
       <recent name="$PROJECT_DIR$/lib/generators/bms" />
+      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/images/files" />
       <recent name="$PROJECT_DIR$/lib/generators/bms/templates/tasks" />
-      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate" />
-      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/config/locales" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/generators/bms" />
@@ -688,13 +982,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1537" height="905" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104377" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104377" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -703,7 +998,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -770,45 +1064,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="66" selection-start="4631" selection-end="4631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="190" selection-start="979" selection-end="1008" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/slider_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -822,7 +1080,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.16129032">
+        <state line="13" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/photo_galleries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/photo_gallery.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_gallery.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="5" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_photos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_gallery.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/path_with_alias.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="82" selection-start="2579" selection-end="2579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="69" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="116" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.5736544">
           <folding />
         </state>
       </provider>

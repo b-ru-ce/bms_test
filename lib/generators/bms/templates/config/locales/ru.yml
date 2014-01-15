@@ -1,4 +1,7 @@
 ru:
+  admin:
+    form:
+      new_model: Новый объект
   date:
     abbr_day_names:
     - Вс

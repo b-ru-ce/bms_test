@@ -67,6 +67,7 @@ module Bms
       copy_file 'config/locales/kaminary.yml', 'config/locales/kaminary.yml'
       copy_file 'app/controllers/application_controller.rb', 'app/controllers/application_controller.rb', force: true
       copy_file 'app/helpers/application_helper.rb', 'app/helpers/application_helper.rb', force: true
+      copy_file 'app/helpers/path_with_alias.rb', 'app/helpers/path_with_alias.rb'
 
       application do
         "config.time_zone = 'Ekaterinburg'"
@@ -112,6 +113,7 @@ module Bms
       generate 'bms:news' if yes?('Would you like to install module News? (y/n)')
       generate 'bms:slider' if yes?('Would you like to install module Slider? (y/n)')
       generate 'bms:reviews' if yes?('Would you like to install module Review? (y/n)')
+      generate 'bms:gallery' if yes?('Would you like to install module Gallery? (y/n)')
     end
 
   end

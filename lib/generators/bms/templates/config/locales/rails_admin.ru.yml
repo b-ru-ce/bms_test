@@ -8,7 +8,26 @@ ru:
       article: 'Новости'
       slide: 'Слайдер'
       review: 'Отзывы'
+      photo_gallery: 'Фотогалерея'
+      photo: 'Фотографии'
     attributes:
+      photo_gallery:
+        id: "№"
+        title: 'Заголовок'
+        photos: 'Фотографии'
+        sort: "№ по порядку"
+        title_of_window: 'Заголовок окна'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      photo:
+        id: "№"
+        photo_gallery: 'Фотогалерея'
+        image: 'Изображение'
+        description: 'Подпись'
+        main: 'Главная фотография'
+        sort: "№ по порядку"
+        created_at: "Создание"
+        updated_at: "Обновление"
       review:
         id: "№"
         name: "Имя"
