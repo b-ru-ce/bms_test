@@ -60,6 +60,7 @@ module Bms
       rake 'db:fill_users'
 
       copy_file 'config/initializers/rails_admin.rb', 'config/initializers/rails_admin.rb', force: true
+      copy_file 'config/initializers/dragonfly.rb', 'config/initializers/dragonfly.rb', force: true
       copy_file 'config/initializers/string.rb', 'config/initializers/string.rb'
       copy_file 'config/locales/ru.yml', 'config/locales/ru.yml'
       copy_file 'config/locales/devise.ru.yml', 'config/locales/devise.ru.yml'
