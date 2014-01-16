@@ -12,7 +12,7 @@ module Bms
       route "get 'contacts' => 'feedbacks#new'"
 
       copy_file 'app/assets/javascripts/feedback.js.coffee'
-      inject_into_file 'app/assets/javascripts/app.js.coffee', 'feedback()', after: "ready = ->\n"
+      inject_into_file 'app/assets/javascripts/app.js.coffee', "  feedback()\n", after: "ready = ->\n"
 
       copy_file 'app/mailers/my_mailer.rb', 'app/mailers/my_mailer.rb'
       copy_file 'app/views/my_mailer/feedback.html.haml', 'app/views/my_mailer/feedback.html.haml'

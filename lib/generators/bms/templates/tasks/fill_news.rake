@@ -6,12 +6,11 @@ namespace :db do
     require 'populator'
     require 'faker'
 
-
-    page_news = Page.purpose('/news').first
-    unless page_news.nil?
-      page_news.delete
+    page = Page.purpose('/news').first || Page.find_by_title('Новости')
+    if page
+      page.update_attributes(purpose: '/news')
+    else Page.create!(title:"Новости", text:"Текст описание самой страницы новостей<br>" + Populator.sentences(20..30), show_in_menu:true, sort:2, purpose:'/news'  )
     end
-    Page.create!(title:"Новости", text:"Текст описание самой страницы новостей<br>" + Populator.sentences(20..30), show_in_menu:true, sort:2, purpose:'/news'  )
 
     Article.destroy_all
 

@@ -6,11 +6,12 @@ namespace :db do
     require 'populator'
     require 'faker'
 
-    page_reviews = Page.purpose('/reviews').first
-    unless page_reviews.nil?
-      page_reviews.delete
+    page = Page.purpose('/reviews').first || Page.find_by_title('Отзывы')
+    if page
+      page.update_attributes(purpose: '/reviews')
+    else Page.create!(title: 'Отзывы', text: '', show_in_menu: true, sort: 3, purpose: '/reviews' )
     end
-    Page.create!(title: 'Отзывы', text: '', show_in_menu: true, sort: 3, purpose: '/reviews' )
+
 
     Review.destroy_all
     10.times do |i|

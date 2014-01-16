@@ -6,11 +6,11 @@ namespace :db do
     require 'populator'
     require 'faker'
 
-    page_gallery = Page.purpose('/gallery').first
-    unless page_gallery.nil?
-      page_gallery.delete
+    page = Page.purpose('/gallery').first || Page.find_by_title('Галерея')
+    if page
+      page.update_attributes(purpose: '/gallery')
+    else Page.create!(title: 'Галерея', text: '', show_in_menu: true, sort: 4, purpose: '/gallery' )
     end
-    Page.create!(title: 'Галерея', text: '', show_in_menu: true, sort: 4, purpose: '/gallery' )
 
     PhotoGallery.destroy_all
 
