@@ -13,6 +13,8 @@ module Bms
 
       copy_file 'app/assets/javascripts/feedback.js.coffee'
       inject_into_file 'app/assets/javascripts/app.js.coffee', "  feedback()\n", after: "ready = ->\n"
+      append_file 'app/views/layouts/application.html.haml', "\n= render 'layouts/dialogs'\n"
+      copy_file 'app/views/layouts/_dialogs.html.haml', 'app/views/layouts/_dialogs.html.haml'
 
       copy_file 'app/mailers/my_mailer.rb', 'app/mailers/my_mailer.rb'
       copy_file 'app/views/my_mailer/feedback.html.haml', 'app/views/my_mailer/feedback.html.haml'
