@@ -1,3 +1,6 @@
+$(document).bind 'page:change', ->
+  $.fancybox.init()
+
 ready = ->
   $('.gallery').fancybox()
 
