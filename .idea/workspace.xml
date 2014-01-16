@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/dragonfly.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml" />
     </list>
@@ -73,7 +73,7 @@
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838386585" ignored="false" />
     <file path="/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694063193" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/pages/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694586087" ignored="false" />
-    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389780827624" ignored="false" />
+    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840312593" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389695208833" ignored="false" />
@@ -110,7 +110,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389771554368" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/articles/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389771554368" ignored="false" />
     <file path="/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756297448" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389780836923" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840316198" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838241665" ignored="false" />
     <file path="/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838235801" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/path_with_alias.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389771554368" ignored="false" />
@@ -144,8 +144,8 @@
     <file path="/feedback.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389779032533" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389786460239" ignored="false" />
     <file path="/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389786445969" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/config/initializers/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389780774589" ignored="false" />
-    <file path="/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389780773735" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/config/initializers/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840368018" ignored="false" />
+    <file path="/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840366242" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/lib/jquery-ui-1.10.3.custom.min.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389782664235" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838752633" ignored="false" />
     <file path="/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838748682" ignored="false" />
@@ -181,51 +181,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dragonfly.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/dragonfly.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fill_feedback.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_feedback.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="106" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_fill.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/base_fill.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fill_pages.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_pages.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="133" selection-start="126" selection-end="434" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -235,28 +190,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="82" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.0">
+            <state line="62" column="15" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.65663475">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -1682,41 +1628,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/news_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/reviews_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1773,23 +1684,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/dragonfly.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="82" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="62" column="15" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.65663475">
           <folding />
         </state>
       </provider>
