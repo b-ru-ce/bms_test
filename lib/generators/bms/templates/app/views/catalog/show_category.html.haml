@@ -1,0 +1,28 @@
+- html_title @category.html_title
+- html_meta @category.meta
+
+%h1= @category.title
+= render :partial => 'category', :locals => {:items => @category.children}
+
+%div
+  Сортировать по:
+  = link_to 'цене', sort_link(request.url, 'price'), class: "#{params[:order] == 'price' ? 'current' : ''} #{params[:direction]}"
+
+%div
+  %h2 Фильтры
+  = form_tag request.url, :id => 'filters' do
+    Цена:
+    от
+    = text_field_tag :price_from, params[:price_from]
+    до
+    = text_field_tag :price_to, params[:price_to]
+    %button#clear_filters Очистить фильтры
+    = submit_tag 'Фильтровать'
+
+- @products.each do |product|
+  = link_to product.image.encode('jpg').url, title: product.title, class: 'gallery', rel: 'gallery_js' do
+    = image_tag product.image.thumb('200x300#').url
+  %div= link_to product.title, product_path(product.my_path)
+  %div #{product.price} руб.
+
+= paginate @products

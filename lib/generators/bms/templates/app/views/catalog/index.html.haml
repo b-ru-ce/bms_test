@@ -1,0 +1,8 @@
+- html_title @page.html_title
+- html_meta @page.meta
+
+%h1= @page.title
+
+%p= raw @page.text
+
+= render :partial => 'category', :locals => {:items => Category.roots}

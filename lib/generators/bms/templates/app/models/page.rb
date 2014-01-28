@@ -7,7 +7,7 @@ class Page < ActiveRecord::Base
 
   default_scope {order('sort')}
   scope :purpose, lambda { |purpose| where(purpose: purpose).limit(1) }
-  scope :main_menu,  where(:show_in_menu=>true)
+  scope :main_menu,  ->{ where(:show_in_menu=>true) }
 
   def self.menu_tree
     Page.all.each { |c| c.ancestry = c.ancestry.to_s + (c.ancestry != nil ? "/" : '') + c.id.to_s
@@ -23,10 +23,6 @@ class Page < ActiveRecord::Base
 
   end
 
-  def html_title
-    title_of_window.to_s.strip.blank? ? (MyConfig.get_config('default_title') + ' - ' + title) : title_of_window
-  end
-
   def current?(params)
     (purpose == '/' and params[:controller] == 'pages' and params[:action] == 'home') or
         (params[:id].to_i == id and params[:action] == 'show' and params[:controller] == 'pages') or
@@ -37,25 +33,3 @@ class Page < ActiveRecord::Base
   end
 
 end
-
-# == Schema Information
-#
-# Table name: pages
-#
-#  id              :integer          not null, primary key
-#  title           :string(255)
-#  text            :text
-#  purpose         :string(255)
-#  show_in_menu    :boolean
-#  menu            :string(255)
-#  meta            :text
-#  created_at      :datetime
-#  updated_at      :datetime
-#  ancestry        :string(255)
-#  sort            :integer
-#  title_of_window :string(255)      default("")
-#
-# Indexes
-#
-#  index_pages_on_ancestry  (ancestry)
-#

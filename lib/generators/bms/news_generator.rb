@@ -7,6 +7,7 @@ module Bms
     def news
       generate 'controller', 'Articles'
       copy_file 'app/controllers/articles_controller.rb', 'app/controllers/articles_controller.rb', force: true
+      copy_file 'app/helpers/articles_helper.rb', 'app/helpers/articles_helper.rb', force: true
       run('rm app/assets/javascripts/articles.js.coffee')
       run('rm app/assets/stylesheets/articles.css.scss')
 

@@ -1,3 +1,6 @@
+- html_title @gallery.html_title
+- html_meta @gallery.meta
+
 - @gallery.photos.each do |photo|
   = link_to photo.image.encode('jpg').url, title: photo.description, class: 'gallery', rel: 'gallery_js' do
     = image_tag photo.image.thumb('100x100').url

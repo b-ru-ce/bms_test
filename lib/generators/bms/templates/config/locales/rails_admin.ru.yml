@@ -11,7 +11,30 @@ ru:
       photo_gallery: 'Фотогалерея'
       photo: 'Фотографии'
       feedback: 'Обратная связь'
+      category: 'Категории каталога'
+      product: 'Товары'
     attributes:
+      category:
+        id: "№"
+        title: 'Название'
+        meta: 'Мета теги'
+        title_of_window: 'Заголовок окна'
+        products: 'Товары'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      product:
+        id: "№"
+        title: 'Название'
+        meta: 'Мета теги'
+        title_of_window: 'Заголовок окна'
+        meta: 'Мета теги'
+        category: 'Категория'
+        image: 'Изображение'
+        price: 'Цена (руб.)'
+        text: 'Описание'
+        sort: '№ п/п'
+        created_at: "Создание"
+        updated_at: "Обновление"
       photo_gallery:
         id: "№"
         title: 'Заголовок'

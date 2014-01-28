@@ -72,6 +72,7 @@ module Bms
       application do
         "config.time_zone = 'Ekaterinburg'"
         "config.i18n.default_locale = :ru"
+        "config.action_controller.include_all_helpers = false"
       end
 
     end
@@ -123,6 +124,7 @@ module Bms
       generate 'bms:reviews' if yes?('Would you like to install module Review? (y/n)')
       generate 'bms:gallery' if yes?('Would you like to install module Gallery? (y/n)')
       generate 'bms:feedback' if yes?('Would you like to install module Feedback? (y/n)')
+      generate 'bms:catalog' if yes?('Would you like to install module Catalog? (y/n)')
     end
 
   end

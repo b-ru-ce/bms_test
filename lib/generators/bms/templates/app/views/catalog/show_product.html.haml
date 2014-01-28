@@ -1,0 +1,8 @@
+- html_title @product.html_title
+- html_meta @product.meta
+
+%h1= @product.title
+= link_to @product.image.encode('jpg').url, title: @product.title, class: 'gallery', rel: 'gallery_js' do
+  = image_tag @product.image.thumb('200x300#').url
+%div #{@product.price} руб.
+%div= raw @product.text

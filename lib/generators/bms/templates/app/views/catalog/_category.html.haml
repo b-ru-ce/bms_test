@@ -1,0 +1,6 @@
+- if items.length != 0 and items.count != 0
+  %ul
+    - items.each do |item|
+      %li{class: item.current?(params) ? 'current' : ''}
+        = link_to item.title, category_path(item.my_path)
+        = render(:partial => 'category', :locals => {:items => item.children}) if item.has_children?
