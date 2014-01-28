@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/articles_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/catalog_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/photo_galleries_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/feedbacks_controller.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/feedbacks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/gallery_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/index.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/path_with_alias.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/path_with_alias.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/photo_gallery.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/photo_gallery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/show.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_catalog.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_catalog.rb" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390897907926" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390901262009" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
@@ -247,6 +230,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/models/category.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899108404" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390900136089" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/catalog_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390900201103" ignored="false" />
+    <file path="/add_ancestry_to_catalog.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390901278369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +313,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviews_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reviews_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/reviews_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -338,19 +322,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fill_catalog.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_catalog.rake">
+      <file leaf-file-name="add_ancestry_to_catalog.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_catalog.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/catalog_generator.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="921" selection-end="1015" vertical-scroll-proportion="0.0">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -374,7 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/photo_galleries_helper.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/product.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
@@ -390,6 +364,7 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/news_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/catalog_controller.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/feedbacks_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_catalog.rb" />
       </list>
     </option>
   </component>
@@ -425,7 +400,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1258,6 +1232,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1532,7 +1507,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33535352" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34074074" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1608,46 +1583,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="30" selection-end="53" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/articles/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="33" selection-end="59" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="33" selection-end="59" vertical-scroll-proportion="-0.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/photo_galleries/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_catalog.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="20" selection-start="1299" selection-end="1299" vertical-scroll-proportion="1.481224">
-          <folding />
-        </state>
+        <state line="71" column="20" selection-start="1299" selection-end="1299" vertical-scroll-proportion="1.481224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="677" selection-end="677" vertical-scroll-proportion="0.5736544">
-          <folding />
-        </state>
+        <state line="27" column="27" selection-start="677" selection-end="677" vertical-scroll-proportion="0.5736544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_catalog.rake">
@@ -1716,6 +1669,20 @@
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/controllers/reviews_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_slides.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_catalog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
