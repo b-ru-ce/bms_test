@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -264,19 +263,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo_gallery.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/photo_gallery.rb">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="32" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.6161473">
+            <state line="7" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -345,6 +335,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="25" selection-start="4114" selection-end="4114" vertical-scroll-proportion="0.76628894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -363,7 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/category.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/photo_gallery.rb" />
@@ -378,6 +376,7 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/slide.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
       </list>
     </option>
@@ -1635,11 +1634,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1732,9 +1726,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="32" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.6161473">
+        <state line="98" column="25" selection-start="4114" selection-end="4114" vertical-scroll-proportion="0.76628894">
           <folding />
         </state>
       </provider>
