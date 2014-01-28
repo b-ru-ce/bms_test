@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_pages.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_pages.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/slide.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/slide.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390901633747" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902624121" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
@@ -39,7 +36,7 @@
     <file path="/application.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389341007105" ignored="false" />
     <file path="/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955041419" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/initializers/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955150336" ignored="false" />
-    <file path="/a.dummy" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899353518" ignored="false" />
+    <file path="/a.dummy" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902647829" ignored="false" />
     <file path="/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389960703863" ignored="false" />
     <file path="/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694610941" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/my_config.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342582940" ignored="false" />
@@ -151,7 +148,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/lib/jquery-ui-1.10.3.custom.min.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389782664235" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389954559767" ignored="false" />
     <file path="/application.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389954460129" ignored="false" />
-    <file path="/feedback_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838865307" ignored="false" />
+    <file path="/feedback_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902676568" ignored="false" />
     <file path="/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389872089863" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389786428724" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/_dialogs.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838742157" ignored="false" />
@@ -258,24 +255,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="feedback.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/feedback.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_config.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/my_config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -339,10 +318,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="26" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedback_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="122" selection-start="774" selection-end="774" vertical-scroll-proportion="0.25637394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="7" selection-start="508" selection-end="515" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -366,8 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/views/catalog/show_category.html.haml" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/views/catalog/show_product.html.haml" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/article.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/category.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
@@ -382,6 +377,8 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_pages.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/slide.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
       </list>
     </option>
   </component>
@@ -1287,8 +1284,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1560,9 +1557,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34612796" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35151514" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1571,7 +1569,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1638,23 +1635,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/rails_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_pages.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="183" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1745,7 +1728,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="26" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="508" selection-end="515" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="122" selection-start="774" selection-end="774" vertical-scroll-proportion="0.25637394">
           <folding />
         </state>
       </provider>
