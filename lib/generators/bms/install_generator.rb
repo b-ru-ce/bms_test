@@ -92,8 +92,8 @@ module Bms
       rake 'db:migrate'
       copy_file 'app/models/page.rb', 'app/models/page.rb', force: true
 
-      copy_file 'app/views/layouts/application.html.haml', 'app/views/layouts/application.html.haml'
-      run('rm app/views/layouts/application.html.erb')
+      copy_file 'app/views/layouts/application.html.erb', 'app/views/layouts/application.html.erb', force: true
+      copy_file 'app/views/layouts/_breadcrumbs.html.haml', 'app/views/layouts/_breadcrumbs.html.haml'
       copy_file 'app/views/layouts/menu/_menu.html.haml', 'app/views/layouts/menu/_menu.html.haml'
       copy_file 'app/views/layouts/menu/_menu_wrapper.html.haml', 'app/views/layouts/menu/_menu_wrapper.html.haml'
       copy_file 'app/views/pages/home.html.haml', 'app/views/pages/home.html.haml'

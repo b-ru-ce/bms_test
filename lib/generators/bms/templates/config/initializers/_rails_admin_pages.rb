@@ -33,7 +33,7 @@
         field :show_in_menu
         field :purpose, :enum do
           enum do
-            [ ['Главная','/'] , ['Новости','/news'], ['Каталог','/catalog'],  ['Галерея','/gallery']]
+            [ ['Главная', '/'] , ['Новости', '/news'], ['Каталог', '/catalog'],  ['Галерея', '/gallery'], ['О компании', '/about'], ['Отзывы', '/reviews'], ['Контакты', '/contacts'] ]
           end
         end
 
