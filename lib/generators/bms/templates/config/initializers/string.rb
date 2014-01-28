@@ -83,4 +83,9 @@ class String
 
     new_str = new_str.downcase.gsub(/-{2,}/, "-").gsub(/^-|-$/, "")
   end
+
+  def divide_phone
+    regular = Regexp.new('([\s\S]*?\(.+?\))(.+)')
+    [self[regular, 1], self[regular, 2]]
+  end
 end

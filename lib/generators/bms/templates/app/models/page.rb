@@ -27,6 +27,15 @@ class Page < ActiveRecord::Base
     title_of_window.to_s.strip.blank? ? (MyConfig.get_config('default_title') + ' - ' + title) : title_of_window
   end
 
+  def current?(params)
+    (purpose == '/' and params[:controller] == 'pages' and params[:action] == 'home') or
+        (params[:id].to_i == id and params[:action] == 'show' and params[:controller] == 'pages') or
+        (purpose == '/news' and params[:controller] == 'articles') or
+        (purpose == '/gallery' and params[:controller] == 'photo_galleries') or
+        (purpose == '/contacts' and params[:controller] == 'feedbacks') or
+        (purpose == '/reviews' and params[:controller] == 'reviews')
+  end
+
 end
 
 # == Schema Information

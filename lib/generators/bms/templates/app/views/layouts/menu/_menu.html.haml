@@ -1,6 +1,6 @@
 %ul
   - items.each do |item|
-    %li
+    %li{class: item.current?(params) ? 'current' : ''}
       = link_to item.title, item.purpose.blank? ? page_path(item.my_path) : item.purpose
 
       - if item.has_children?

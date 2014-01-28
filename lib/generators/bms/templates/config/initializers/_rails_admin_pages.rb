@@ -9,7 +9,6 @@
 
     list do
       field :title
-      field :purpose
       field :show_in_menu
     end
 

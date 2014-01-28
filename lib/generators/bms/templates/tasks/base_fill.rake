@@ -11,7 +11,7 @@ namespace :db do
     MyConfig.create :key => 'twitter', :key_ru => 'Ссылка на социальную сеть Twitter', :value => '/'
     MyConfig.create :key => 'odnokl', :key_ru => 'Ссылка на социальную сеть Одноклассники', :value => '/'
     MyConfig.create key: 'default_title', key_ru: 'Заголовок окна по умолчанию', value: 'Сайт'
-    MyConfig.create key: 'metrika', key_ru: 'Код счетчика статистики', value: 'код счетчика'
+    MyConfig.create key: 'metrika', key_ru: 'Код счетчика статистики', value: '<script></script>'
   end
 
   desc "Fill models User and Role"

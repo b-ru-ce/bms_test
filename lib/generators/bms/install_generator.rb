@@ -74,9 +74,6 @@ module Bms
         "config.i18n.default_locale = :ru"
       end
 
-      #git add: '.'
-      #git commit: '-m Base prepare completed'
-
     end
 
     def pages
@@ -113,6 +110,7 @@ module Bms
 
     def javascript
       directory 'app/assets/javascripts/lib', 'app/assets/javascripts/lib'
+      directory 'app/assets/javascripts/ckeditor', 'app/assets/javascripts/ckeditor'
       copy_file 'app/assets/javascripts/app.js.coffee', 'app/assets/javascripts/app.js.coffee'
       directory 'app/assets/stylesheets/lib', 'app/assets/stylesheets/lib'
       directory 'app/assets/images/fancybox', 'app/assets/images/fancybox'

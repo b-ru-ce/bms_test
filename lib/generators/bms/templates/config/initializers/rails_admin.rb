@@ -88,7 +88,7 @@ RailsAdmin.config do |config|
 
   config.model User do
     navigation_label 'Общее'
-    weight -3
+    weight 1
 
     edit do
       field :role
@@ -96,5 +96,10 @@ RailsAdmin.config do |config|
       field :password
       field :password_confirmation
     end
+  end
+
+  config.model Role do
+    navigation_label 'Общее'
+    weight 0
   end
 end
