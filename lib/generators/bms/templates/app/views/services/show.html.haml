@@ -1,0 +1,8 @@
+- html_title @service.html_title
+- html_meta @service.meta
+
+%h1= @service.title
+= image_tag @service.image.thumb('100x100#').url if @service.image_uid
+%div
+  %strong= @service.short_text
+%div= raw @service.text

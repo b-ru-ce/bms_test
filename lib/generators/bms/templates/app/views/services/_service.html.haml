@@ -1,0 +1,4 @@
+%div
+  = image_tag service.image.thumb('100x100#').url if service.image_uid
+  %h3= link_to service.title, service_path(service.my_path)
+  %p= service.short_text

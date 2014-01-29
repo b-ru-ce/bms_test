@@ -16,9 +16,9 @@ module Bms
       copy_file 'app/controllers/catalog_controller.rb', 'app/controllers/catalog_controller.rb', force: true
       copy_file 'app/helpers/catalog_helper.rb', 'app/helpers/catalog_helper.rb', force: true
       run('rm app/assets/stylesheets/catalog.css.scss')
-      route "get '/catalog' => 'catalog#index'"
-      route "get '/catalog/:id-:alias' => 'catalog#show_category', as: 'category'"
       route "get '/catalog/:category_alias/:id-:alias' => 'catalog#show_product', as: 'product'"
+      route "get '/catalog/:id-:alias' => 'catalog#show_category', as: 'category'"
+      route "get '/catalog' => 'catalog#index'"
 
       copy_file 'app/assets/javascripts/catalog.js.coffee', force: true
       inject_into_file 'app/assets/javascripts/app.js.coffee', "  catalog()\n", after: "ready = ->\n"

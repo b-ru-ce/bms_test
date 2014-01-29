@@ -1,0 +1,4 @@
+%div
+  = image_tag portfolio_object.image.thumb('100x100#').url if portfolio_object.image_uid
+  %h3= link_to portfolio_object.title, portfolio_object_path(portfolio_object.my_path)
+  %p= portfolio_object.short_text

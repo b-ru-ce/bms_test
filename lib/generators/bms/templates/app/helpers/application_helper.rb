@@ -29,7 +29,7 @@ module ApplicationHelper
   end
 
   def sort_link(full_path, param)
-    full_path = full_path.gsub(/direction=([a-z]*)/, '' ).gsub(/order=([a-z]*)/, '' ).gsub('&&', '&').gsub(/&$/, '').gsub(/\?$/, '')
+    full_path = full_path.gsub(/direction=([a-z]*)/, '' ).gsub(/order=([a-z_0-9]*)/, '' ).gsub('&&', '&').gsub(/&$/, '').gsub(/\?$/, '')
 
     direction =
         if params[:order] == param

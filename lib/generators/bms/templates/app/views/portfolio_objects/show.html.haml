@@ -1,0 +1,8 @@
+- html_title @obj.html_title
+- html_meta @obj.meta
+
+%h1= @obj.title
+= image_tag @obj.image.thumb('100x100#').url if @obj.image_uid
+%div
+  %strong= @obj.short_text
+%div= raw @obj.text

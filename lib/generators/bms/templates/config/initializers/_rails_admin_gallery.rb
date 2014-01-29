@@ -27,8 +27,14 @@
       end
 
       group :seo do
-        label "SEO-оптимизация"
-        field :title_of_window
+        active false
+        label 'SEO оптимизация'
+        field :title_of_window do
+          help 'Оставьте это поле пустым, если хотите оставить заголовок по умолчанию'
+        end
+        field :meta do
+          help 'Оставьте это поле пустым, если хотите оставить мета теги по умолчанию'
+        end
       end
 
     end

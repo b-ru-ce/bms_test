@@ -9,7 +9,7 @@ namespace :db do
     page = Page.purpose('/catalog').first || Page.find_by_title('Каталог')
     if page
       page.update_attributes(purpose: '/catalog')
-    else Page.create!(title: 'Каталог', text: '', show_in_menu: true, sort: 5, purpose: '/catalog' )
+    else Page.create!(title: 'Каталог', text: '', show_in_menu: true, sort: 6, purpose: '/catalog' )
     end
 
     Category.destroy_all

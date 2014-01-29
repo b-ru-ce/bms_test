@@ -1,22 +1,34 @@
 
-  config.model Article do
+  config.model Service do
     navigation_label 'Контент'
     weight -1
+    nestable_list({ position_field: :sort })
 
     list do
-      field :date
       field :title
+      field :image
       field :short_text
+    end
+
+    show do
+      field :id
+      field :title
+      field :image
+      field :short_text
+      field :text
+      field :title_of_window
+      field :meta
+      field :created_at
+      field :updated_at
     end
 
     edit do
       group :main do
         label "Главная инфомация"
         field :title
-        field :date
+        field :image
         field :short_text
         field :text, :ck_editor
-        field :image
       end
 
       group :seo do
@@ -30,17 +42,5 @@
         end
       end
 
-    end
-
-    show do
-      field :id
-      field :date
-      field :title
-      field :image
-      field :short_text
-      field :text
-      field :title_of_window
-      field :created_at
-      field :updated_at
     end
   end

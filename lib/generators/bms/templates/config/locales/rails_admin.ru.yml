@@ -13,7 +13,29 @@ ru:
       feedback: 'Обратная связь'
       category: 'Категории каталога'
       product: 'Товары'
+      portfolio_object: 'Портфолио'
+      service: 'Услуги'
     attributes:
+      portfolio_object:
+        id: "№"
+        title: 'Название'
+        meta: 'Мета теги'
+        title_of_window: 'Заголовок окна'
+        image: 'Изображение'
+        short_text: 'Короткий текст'
+        text: 'Текст'
+        created_at: "Создание"
+        updated_at: "Обновление"
+      service:
+        id: "№"
+        title: 'Заголовок'
+        meta: 'Мета теги'
+        title_of_window: 'Заголовок окна'
+        image: 'Изображение'
+        short_text: 'Короткий текст'
+        text: 'Текст'
+        created_at: "Создание"
+        updated_at: "Обновление"
       category:
         id: "№"
         title: 'Название'

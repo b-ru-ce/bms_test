@@ -1,6 +1,6 @@
 
   config.model Page do
-    weight -1
+    weight -4
     navigation_label 'Контент'
     nestable_tree({
                       position_field: :sort,
@@ -33,7 +33,7 @@
         field :show_in_menu
         field :purpose, :enum do
           enum do
-            [ ['Главная', '/'] , ['Новости', '/news'], ['Каталог', '/catalog'],  ['Галерея', '/gallery'], ['О компании', '/about'], ['Отзывы', '/reviews'], ['Контакты', '/contacts'] ]
+            [ ['Главная', '/'] , ['Новости', '/news'], ['Каталог', '/catalog'],  ['Галерея', '/gallery'], ['О компании', '/about'], ['Отзывы', '/reviews'], ['Контакты', '/contacts'], ['Портфолио', '/portfolio'], ['Услуги', '/services'] ]
           end
         end
 
@@ -42,15 +42,13 @@
 
       group :seo do
         active false
-        label "SEO оптимизация"
+        label 'SEO оптимизация'
         field :title_of_window do
-          help "Оставьте это поле пустым хотите оставить заголовок по умолчанию"
+          help 'Оставьте это поле пустым, если хотите оставить заголовок по умолчанию'
         end
         field :meta do
-          help "Оставьте это поле пустым хотите оставить мета теги по умолчанию"
+          help 'Оставьте это поле пустым, если хотите оставить мета теги по умолчанию'
         end
-
-
       end
 
     end

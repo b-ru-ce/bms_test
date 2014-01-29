@@ -26,10 +26,12 @@ class Page < ActiveRecord::Base
   def current?(params)
     (purpose == '/' and params[:controller] == 'pages' and params[:action] == 'home') or
         (params[:id].to_i == id and params[:action] == 'show' and params[:controller] == 'pages') or
+        (children.pluck(:id).include?(params[:id].to_i) and params[:action] == 'show' and params[:controller] == 'pages') or
         (purpose == '/news' and params[:controller] == 'articles') or
         (purpose == '/gallery' and params[:controller] == 'photo_galleries') or
         (purpose == '/contacts' and params[:controller] == 'feedbacks') or
-        (purpose == '/reviews' and params[:controller] == 'reviews')
+        (purpose == '/reviews' and params[:controller] == 'reviews') or
+        (purpose == '/catalog' and params[:controller] == 'catalog')
   end
 
 end

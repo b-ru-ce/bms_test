@@ -21,7 +21,8 @@ class Category < ActiveRecord::Base
   end
 
   def current?(params)
-    (params[:id].to_i == id and params[:controller] == 'catalog' and params[:action] == 'show') or
-        (products.pluck(:id).include?(params[:id].to_i) and params[:controller] == 'catalog' and params[:action] == 'product')
+    (params[:id].to_i == id and params[:controller] == 'catalog' and params[:action] == 'show_category') or
+        (children.pluck(:id).include?(params[:id].to_i) and params[:controller] == 'catalog' and params[:action] == 'show_category') or
+        (products.pluck(:id).include?(params[:id].to_i) and params[:controller] == 'catalog' and params[:action] == 'show_product')
   end
 end

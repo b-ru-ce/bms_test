@@ -1,7 +1,7 @@
 
   config.model Category do
     navigation_label 'Контент'
-    weight -1
+    weight -3
     nestable_tree({
                       position_field: :sort,
                       max_depth: 2
@@ -30,9 +30,14 @@
       end
 
       group :seo do
-        label "SEO-оптимизация"
-        field :title_of_window
-        field :meta
+        active false
+        label 'SEO оптимизация'
+        field :title_of_window do
+          help 'Оставьте это поле пустым, если хотите оставить заголовок по умолчанию'
+        end
+        field :meta do
+          help 'Оставьте это поле пустым, если хотите оставить мета теги по умолчанию'
+        end
       end
 
     end
@@ -40,7 +45,7 @@
 
   config.model Product do
     navigation_label 'Контент'
-    weight -1
+    weight -2
     nestable_list({ position_field: :sort })
 
     list do
@@ -74,9 +79,14 @@
       end
 
       group :seo do
-        label "SEO-оптимизация"
-        field :title_of_window
-        field :meta
+        active false
+        label 'SEO оптимизация'
+        field :title_of_window do
+          help 'Оставьте это поле пустым, если хотите оставить заголовок по умолчанию'
+        end
+        field :meta do
+          help 'Оставьте это поле пустым, если хотите оставить мета теги по умолчанию'
+        end
       end
 
     end
