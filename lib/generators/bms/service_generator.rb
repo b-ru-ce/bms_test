@@ -20,7 +20,7 @@ module Bms
 
       copy_file 'app/views/services/index.html.haml', 'app/views/services/index.html.haml'
       copy_file 'app/views/services/show.html.haml', 'app/views/services/show.html.haml'
-      copy_file 'app/views/services/_portfolio_object.html.haml', 'app/views/services/_service.html.haml'
+      copy_file 'app/views/services/_service.html.haml', 'app/views/services/_service.html.haml'
 
       copy_file 'app/assets/images/files/service.jpg', 'vendor/bms/images/service.jpg'
       copy_file 'tasks/fill_service.rake', 'lib/tasks/fill_service.rake'

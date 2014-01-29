@@ -42,8 +42,8 @@ module Bms
 
       generate 'kaminari:views', 'default'
       generate 'devise:views'
-      copy_file 'app/views/devise/new.html.haml', 'app/views/devise/sessions/new.html.haml', force: true
       run('for file in app/views/devise/**/*.erb; do html2haml -e $file ${file%erb}haml && rm $file; done')
+      copy_file 'app/views/devise/new.html.haml', 'app/views/devise/sessions/new.html.haml', force: true
 
       generate 'model', 'MyConfig key:string key_ru:string value:text'
       generate 'model', 'Role name:string'
