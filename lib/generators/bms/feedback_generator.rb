@@ -12,6 +12,7 @@ module Bms
       route "get 'contacts' => 'feedbacks#new'"
 
       copy_file 'app/assets/javascripts/feedback.js.coffee'
+      inject_into_file 'app/assets/javascripts/application.js', "\n//= require feedback", before: "\n//= require app"
       inject_into_file 'app/assets/javascripts/app.js.coffee', "  feedback()\n", after: "ready = ->\n"
       inject_into_file 'app/views/layouts/application.html.erb', "\n  <%= render 'layouts/dialogs' %>\n", before: '</body>'
       copy_file 'app/views/layouts/_dialogs.html.haml', 'app/views/layouts/_dialogs.html.haml'

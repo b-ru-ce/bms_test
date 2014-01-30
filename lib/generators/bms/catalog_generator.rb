@@ -21,6 +21,7 @@ module Bms
       route "get '/catalog' => 'catalog#index'"
 
       copy_file 'app/assets/javascripts/catalog.js.coffee', force: true
+      inject_into_file 'app/assets/javascripts/application.js', "\n//= require catalog", before: "\n//= require app"
       inject_into_file 'app/assets/javascripts/app.js.coffee', "  catalog()\n", after: "ready = ->\n"
 
       copy_file 'app/views/catalog/_category.html.haml', 'app/views/catalog/_category.html.haml'
