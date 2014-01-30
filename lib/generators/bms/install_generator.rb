@@ -115,7 +115,7 @@ module Bms
       gsub_file 'app/assets/javascripts/application.js', '//= require_tree .', "//= require lib/jquery-ui-1.10.3.custom.min\n//= require lib/jquery.fancybox-1.3.4\n//= require lib/jquery.form.min\n//= require lib/jquery.validate.min\n//= require app"
 
       directory 'app/assets/stylesheets/lib', 'app/assets/stylesheets/lib'
-      gsub_file 'app/assets/javascripts/application.css', " *= require_self\n *= require_tree .", " *= require lib/jquery-ui-1.10.3.custom.min\n *= require lib/jquery.fancybox-1.3.4\n *= require_self"
+      gsub_file 'app/assets/stylesheets/application.css', " *= require_self\n *= require_tree .", " *= require lib/jquery-ui-1.10.3.custom.min\n *= require lib/jquery.fancybox-1.3.4\n *= require_self"
 
       directory 'app/assets/images/fancybox', 'app/assets/images/fancybox'
       directory 'app/assets/images/ui', 'app/assets/images/ui'
