@@ -31,7 +31,9 @@ class Page < ActiveRecord::Base
         (purpose == '/gallery' and params[:controller] == 'photo_galleries') or
         (purpose == '/contacts' and params[:controller] == 'feedbacks') or
         (purpose == '/reviews' and params[:controller] == 'reviews') or
-        (purpose == '/catalog' and params[:controller] == 'catalog')
+        (purpose == '/catalog' and params[:controller] == 'catalog') or
+        (purpose == '/services' and params[:controller] == 'services') or
+        (purpose == '/portfolio' and params[:controller] == 'portfolio_objects')
   end
 
 end

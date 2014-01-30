@@ -13,6 +13,7 @@ module Bms
       gem 'html2haml'
       gem 'rails_admin'
       gem 'cancan'
+      gem 'unicode_utils'
       run('bundle install')
 
       generate 'rails_admin:install'
@@ -111,7 +112,11 @@ module Bms
       directory 'app/assets/javascripts/lib', 'app/assets/javascripts/lib'
       directory 'app/assets/javascripts/ckeditor', 'app/assets/javascripts/ckeditor'
       copy_file 'app/assets/javascripts/app.js.coffee', 'app/assets/javascripts/app.js.coffee'
+      gsub_file 'app/assets/javascripts/application.js', '//= require_tree .', "//= require lib/jquery-ui-1.10.3.custom.min\n//= require lib/jquery.fancybox-1.3.4\n//= require lib/jquery.form.min\n//= require lib/jquery.validate.min\n//= require app"
+
       directory 'app/assets/stylesheets/lib', 'app/assets/stylesheets/lib'
+      gsub_file 'app/assets/javascripts/application.css', " *= require_self\n *= require_tree .", " *= require lib/jquery-ui-1.10.3.custom.min\n *= require lib/jquery.fancybox-1.3.4\n *= require_self"
+
       directory 'app/assets/images/fancybox', 'app/assets/images/fancybox'
       directory 'app/assets/images/ui', 'app/assets/images/ui'
     end

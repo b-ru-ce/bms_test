@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor/config.js" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/service_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/service_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390994071152" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391083920958" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
-    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390992338892" ignored="false" />
+    <file path="/install_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085046423" ignored="false" />
     <file path="/base_fill.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388829810360" ignored="false" />
     <file path="/.gitignore" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388833958139" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834511129" ignored="false" />
@@ -19,16 +21,16 @@
     <file path="$PROJECT_DIR$/../../buzulukbz/app/views/layouts/_footer.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388834554663" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390900136090" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
-    <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991076117" ignored="false" />
+    <file path="/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000008335" ignored="false" />
     <file path="/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389352120310" ignored="false" />
-    <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990084506" ignored="false" />
+    <file path="/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000086281" ignored="false" />
     <file path="/_rails_admin_news.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389265022298" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/assets/javascripts/main/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274777920" ignored="false" />
     <file path="/admin.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389274630582" ignored="false" />
     <file path="/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275169759" ignored="false" />
     <file path="$PROJECT_DIR$/../../buzulukbz/app/admin/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389275174881" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991077214" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391083929305" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/pages_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389773247101" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/ext/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389340705668" ignored="false" />
@@ -42,7 +44,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/models/my_config.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342582940" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/role.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342588512" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/user.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389342590960" ignored="false" />
-    <file path="/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390920318274" ignored="false" />
+    <file path="/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000035718" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991440291" ignored="false" />
     <file path="/routes.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991440291" ignored="false" />
     <file path="/USAGE" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389353925303" ignored="false" />
@@ -72,13 +74,13 @@
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838386585" ignored="false" />
     <file path="/fill_review.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694063193" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/pages/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389694586087" ignored="false" />
-    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991861606" ignored="false" />
+    <file path="/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000424839" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="/articles_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390919996924" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/reviews_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/reviews/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
-    <file path="/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991854359" ignored="false" />
+    <file path="/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000187185" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389754361953" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/db/schema.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990040999" ignored="false" />
     <file path="/reviews_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389791808605" ignored="false" />
@@ -108,14 +110,14 @@
     <file path="/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390907344877" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899923359" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/articles/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389771554368" ignored="false" />
-    <file path="/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389756297448" ignored="false" />
+    <file path="/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998816083" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/photo_galleries/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899930207" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838241665" ignored="false" />
     <file path="/fill_gallery.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838235801" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/path_with_alias.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899154220" ignored="false" />
     <file path="/path_with_alias.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768180421" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/menu/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389960773332" ignored="false" />
-    <file path="/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389960773332" ignored="false" />
+    <file path="/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998085726" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/log/development.log" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902008621" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/locales/ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389771554368" ignored="false" />
     <file path="/ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389768833172" ignored="false" />
@@ -142,7 +144,7 @@
     <file path="$PROJECT_DIR$/../bms_app/config/environments/production.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389778978147" ignored="false" />
     <file path="/feedback.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389779032533" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389841269563" ignored="false" />
-    <file path="/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964060828" ignored="false" />
+    <file path="/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999510121" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/config/initializers/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840368018" ignored="false" />
     <file path="/dragonfly.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389840366242" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/lib/jquery-ui-1.10.3.custom.min.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389782664235" ignored="false" />
@@ -158,12 +160,12 @@
     <file path="$PROJECT_DIR$/../../perspective/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389862195240" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389961110013" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/javascripts/main.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389862524360" ignored="false" />
-    <file path="/main.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389862466538" ignored="false" />
+    <file path="/main.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999480854" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/javascripts/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964060828" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/javascripts/application.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389864115057" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/pages/_home_slider.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389862728273" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/layouts/_slide.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389863021562" ignored="false" />
-    <file path="/_slide.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389863000947" ignored="false" />
+    <file path="/_slide.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998263604" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389862826763" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/layouts/_sidebar.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959532431" ignored="false" />
     <file path="/_sidebar.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959529231" ignored="false" />
@@ -184,7 +186,7 @@
     <file path="$PROJECT_DIR$/../../perspective/app/views/feedbacks/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389961214394" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/my_mailer/feedback.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389871979102" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964086379" ignored="false" />
-    <file path="/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390907672075" ignored="false" />
+    <file path="/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085130889" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/javascripts/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389872096055" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/pages/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959700810" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/kaminari/_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389875598384" ignored="false" />
@@ -195,14 +197,14 @@
     <file path="$PROJECT_DIR$/../../perspective/config/initializers/string.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955045025" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/helpers/application_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955059016" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/layouts/_header.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955085846" ignored="false" />
-    <file path="/_header.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389955083324" ignored="false" />
+    <file path="/_header.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998332979" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/log/development.log" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964179162" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389960797985" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/reviews/_review.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959581080" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/reviews/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959552670" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/models/review.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389969350745" ignored="false" />
-    <file path="/config.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389963890679" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/ckeditor/config.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964230755" ignored="false" />
+    <file path="/config.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390997745392" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/ckeditor/config.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390995425343" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/Gemfile" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389965991724" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/config/environments/production.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389965586102" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/Capfile" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389965608798" ignored="false" />
@@ -227,14 +229,14 @@
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/catalog_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390898743076" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/helpers/reviews_helper.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390898755752" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/articles/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390899907927" ignored="false" />
-    <file path="/show_category.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390920170920" ignored="false" />
+    <file path="/show_category.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391084327455" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/category.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390900136089" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/catalog_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
     <file path="/add_ancestry_to_catalog.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390901278369" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902014002" ignored="false" />
-    <file path="/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390902014003" ignored="false" />
+    <file path="/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999305915" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/devise/sessions/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
     <file path="$PROJECT_DIR$/../bms/lib/generators/bms/templates/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390903750559" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/Gemfile" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390920959756" ignored="false" />
@@ -247,11 +249,11 @@
     <file path="$PROJECT_DIR$/../../bella/app/views/articles/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390907947378" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/assets/javascripts/application.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390904863238" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/models/page.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390904899822" ignored="false" />
-    <file path="$PROJECT_DIR$/../../bella/app/views/catalog/show_category.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390920268447" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bella/app/views/catalog/show_category.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391084448021" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/models/product.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390908356718" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/controllers/catalog_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987234930" ignored="false" />
     <file path="/catalog_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987234930" ignored="false" />
-    <file path="$PROJECT_DIR$/../../bella/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390907672443" ignored="false" />
+    <file path="$PROJECT_DIR$/../../bella/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391084439613" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/config/locales/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390908578769" ignored="false" />
     <file path="$PROJECT_DIR$/../../bella/app/models/category.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390908356718" ignored="false" />
     <file path="/category.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390906639433" ignored="false" />
@@ -287,7 +289,7 @@
     <file path="$PROJECT_DIR$/../bms_app/db/migrate/20140129093102_create_portfolio_objects.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987944466" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/portfolio_object.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990200241" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/models/service.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991372170" ignored="false" />
-    <file path="/portfolio_object.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390989865957" ignored="false" />
+    <file path="/portfolio_object.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000044954" ignored="false" />
     <file path="/fill_portfolio.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990604254" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_portfolio.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990625680" ignored="false" />
     <file path="/fill_service.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390990861650" ignored="false" />
@@ -297,7 +299,7 @@
     <file path="$PROJECT_DIR$/../bms_app/app/controllers/services_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991382587" ignored="false" />
     <file path="/services_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991381744" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/portfolio_objects/_portfolio_object.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991694673" ignored="false" />
-    <file path="/_portfolio_object.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991680593" ignored="false" />
+    <file path="/_portfolio_object.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000299238" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/portfolio_objects/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991710632" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/portfolio_objects/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991769184" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/services/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390991857159" ignored="false" />
@@ -312,6 +314,41 @@
     <file path="/add_ancestry_to_portfolio.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390992443620" ignored="false" />
     <file path="/add_ancestry_to_services.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390992466844" ignored="false" />
     <file path="/service_generator.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390992785748" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/Gemfile" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390995960940" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/layouts/application.html.erb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999308887" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998531767" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/stylesheets/fonts.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390996152638" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/stylesheets/style.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390996165488" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/javascripts/application.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390996291884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/pages/home.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000054129" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/layouts/_footer.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390996655432" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/layouts/_header.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998332979" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/javascripts/ckeditor/config.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390997751695" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/layouts/menu/_menu.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998094158" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/layouts/_slide.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998295006" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/articles/_article.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390998817807" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/models/article.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999023566" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/articles/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999589939" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/kaminari/_paginator.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999437261" ignored="false" />
+    <file path="/_prev_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999375104" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/kaminari/_prev_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999385572" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/kaminari/_next_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999411156" ignored="false" />
+    <file path="/_next_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999116127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/kaminari/_gap.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999143756" ignored="false" />
+    <file path="/_gap.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999138729" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/kaminari/_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999212252" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/javascripts/main.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999512526" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/assets/javascripts/app.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999512526" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/articles/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390999738658" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/portfolio_objects/_portfolio_object.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000300411" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/models/portfolio_object.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000046655" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/config/initializers/rails_admin.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000015248" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/db/schema.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000041762" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/config/locales/rails_admin.ru.yml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000086281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/portfolio_objects/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000201255" ignored="false" />
+    <file path="$PROJECT_DIR$/../../eco_service/app/views/portfolio_objects/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000556972" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/application.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391084777626" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085183615" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,25 +380,34 @@
       <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.6255507">
+            <state line="117" column="144" selection-start="5495" selection-end="5495" vertical-scroll-proportion="0.6167401">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio_object.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/portfolio_object.rb">
+      <file leaf-file-name="page.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="35" column="80" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/portfolio_objects/show.html.haml">
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="70" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/pages/home.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -430,8 +476,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/category.rb" />
-        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_catalog.rake" />
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_catalog.rb" />
@@ -445,6 +489,8 @@
         <option value="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_services.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/portfolio_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/service_generator.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bms/install_generator.rb" />
       </list>
     </option>
@@ -481,7 +527,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -823,6 +868,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="photo_galleries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1254,6 +1337,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1505,20 +1630,21 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../perspective" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bms_app" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor" />
       <recent name="$PROJECT_DIR$/lib/generators/bms" />
       <recent name="$PROJECT_DIR$/lib/generators/bms/templates/db/migrate" />
       <recent name="$PROJECT_DIR$/lib/generators/bms/templates/app/assets/images/files" />
       <recent name="$PROJECT_DIR$/lib/generators/bms/templates/tasks" />
-      <recent name="$PROJECT_DIR$/lib/generators/bms/templates/config/locales" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/generators/bms" />
@@ -1778,7 +1904,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37441078" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38653198" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1854,39 +1980,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/helpers/portfolio_objects_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/portfolio_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_portfolio_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="955" selection-end="955" vertical-scroll-proportion="0.91354465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_service.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="6" selection-start="953" selection-end="953" vertical-scroll-proportion="0.84304935">
-          <folding />
-        </state>
+        <state line="45" column="6" selection-start="953" selection-end="953" vertical-scroll-proportion="0.84304935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/rails_admin.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8201133">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8201133" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/portfolio_objects/show.html.haml">
@@ -1926,23 +2027,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_services.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="90" selection-end="90" vertical-scroll-proportion="0.043227665">
-          <folding />
-        </state>
+        <state line="2" column="23" selection-start="90" selection-end="90" vertical-scroll-proportion="0.043227665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_portfolio.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0648415">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0648415" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/db/migrate/add_ancestry_to_photos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/portfolio_generator.rb">
@@ -1959,9 +2054,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/assets/javascripts/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="70" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/views/pages/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/app/models/page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="80" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.6255507">
+        <state line="117" column="144" selection-start="5495" selection-end="5495" vertical-scroll-proportion="0.6167401">
           <folding />
         </state>
       </provider>
