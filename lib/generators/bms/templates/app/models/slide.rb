@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Slide < ActiveRecord::Base
   include ApplicationHelper
   dragonfly_accessor :image

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MyMailer < ActionMailer::Base
   default from: 'no-reply@buzuluk.bz'
 
