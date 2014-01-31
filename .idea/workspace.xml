@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70edf62-2636-4c65-bcc0-f4939e825203" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/catalog_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/catalog_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bms/feedback_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bms_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085556134" ignored="false" />
+    <file path="/Dummy.txt" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391162471133" ignored="false" />
     <file path="/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388135804193" ignored="false" />
     <file path="$PROJECT_DIR$/../../Kreditoriya/app/controllers/application_controller.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388140127678" ignored="false" />
     <file path="/tmbl.rb" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1388134782586" ignored="false" />
@@ -131,8 +130,8 @@
     <file path="$PROJECT_DIR$/../bms_app/app/views/my_mailer/feedbakc.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389773139878" ignored="false" />
     <file path="/feedbakc.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389773136680" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/views/my_mailer/feedback.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389781608080" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/views/feedbacks/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389781629956" ignored="false" />
-    <file path="/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390986469149" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/views/feedbacks/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391162508496" ignored="false" />
+    <file path="/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391162492021" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/lib/tasks/fill_feedback.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1390987555136" ignored="false" />
     <file path="/fill_feedback.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389838167083" ignored="false" />
     <file path="/fill_pages.rake" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389773696656" ignored="false" />
@@ -184,7 +183,7 @@
     <file path="$PROJECT_DIR$/../../perspective/app/views/feedbacks/new.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389961214394" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/my_mailer/feedback.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389871979102" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389964086379" ignored="false" />
-    <file path="/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085130889" ignored="false" />
+    <file path="/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391087353302" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/assets/javascripts/feedback.js.coffee" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389872096055" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/pages/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389959700810" ignored="false" />
     <file path="$PROJECT_DIR$/../../perspective/app/views/kaminari/_page.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1389875598384" ignored="false" />
@@ -346,7 +345,8 @@
     <file path="$PROJECT_DIR$/../../eco_service/app/views/portfolio_objects/index.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000201255" ignored="false" />
     <file path="$PROJECT_DIR$/../../eco_service/app/views/portfolio_objects/show.html.haml" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391000556972" ignored="false" />
     <file path="$PROJECT_DIR$/../bms_app/app/assets/javascripts/application.js" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391084777626" ignored="false" />
-    <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391085183615" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/application.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391162719214" ignored="false" />
+    <file path="$PROJECT_DIR$/../bms_app/app/assets/stylesheets/lib/validate.css" changelist="a70edf62-2636-4c65-bcc0-f4939e825203" time="1391162714343" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +396,7 @@
       <file leaf-file-name="catalog_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bms/catalog_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="86" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.50660795">
+            <state line="23" column="86" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.49779737">
               <folding />
             </state>
           </provider>
@@ -525,8 +525,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1629,6 +1627,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1902,7 +1902,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3986532" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41144782" sideWeight="0.67054266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1985,16 +1985,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/initializers/_rails_admin_pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/config/locales/rails_admin.ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/templates/tasks/fill_portfolio.rake">
@@ -2029,13 +2025,6 @@
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/portfolio_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="125" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bms/service_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2077,7 +2066,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/bms/catalog_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="86" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.50660795">
+        <state line="23" column="86" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.49779737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bms/service_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="44" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
