@@ -1,6 +1,5 @@
-GIT
-  remote: git@github.com:kud86/bms.git
-  revision: 7117bd55fbfdf5edeefdb52e3370cc9adc19cd52
+PATH
+  remote: /home/jewel-sam/poligon/gem/bms
   specs:
     bms (0.0.1)
       rails (~> 4.0.2)

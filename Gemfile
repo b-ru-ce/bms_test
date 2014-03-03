@@ -44,4 +44,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'bms', git: 'git@github.com:kud86/bms.git'
+gem 'bms', path: '/home/jewel-sam/poligon/gem/bms'
