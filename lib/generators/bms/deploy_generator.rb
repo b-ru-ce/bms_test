@@ -9,7 +9,7 @@ module Bms
       gsub_file 'Gemfile', "gem 'bms'", "#gem 'bms'"
       run('bundle install')
 
-      gsub_file 'config/enviroments/production.rb', "config.assets.compile = false", "config.assets.compile = true"
+      gsub_file 'config/environments/production.rb', "config.assets.compile = false", "config.assets.compile = true"
 
       capify!
 

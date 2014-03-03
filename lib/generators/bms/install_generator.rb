@@ -62,7 +62,7 @@ module Bms
       copy_file 'tasks/base_fill.rake', 'lib/tasks/base_fill.rake'
       rake 'db:fill_my_config'
       rake 'db:fill_users'
-      run('rm lib/tasks/change_base.rake')
+      run('rm lib/tasks/base_fill.rake')
 
       copy_file 'config/initializers/rails_admin.rb', 'config/initializers/rails_admin.rb', force: true
       copy_file 'config/initializers/ckeditor.rb', 'config/initializers/ckeditor.rb', force: true
