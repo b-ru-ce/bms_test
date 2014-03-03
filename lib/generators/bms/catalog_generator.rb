@@ -32,6 +32,7 @@ module Bms
       copy_file 'app/assets/images/files/catalog.jpg', 'vendor/bms/images/catalog.jpg'
       copy_file 'tasks/fill_catalog.rake', 'lib/tasks/fill_catalog.rake'
       rake 'db:fill_catalog'
+      run('rm lib/tasks/fill_catalog.rake')
 
       copy_file 'config/initializers/_rails_admin_catalog.rb', 'vendor/bms/initializers/_rails_admin_catalog.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_catalog.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

@@ -16,6 +16,7 @@ module Bms
       copy_file 'app/assets/images/files/slider.jpg', 'vendor/bms/images/slider.jpg'
       copy_file 'tasks/fill_slides.rake', 'lib/tasks/fill_slides.rake'
       rake 'db:fill_slides'
+      run('rm lib/tasks/fill_slides.rake')
 
       copy_file 'config/initializers/_rails_admin_slides.rb', 'vendor/bms/initializers/_rails_admin_slides.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_slides.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

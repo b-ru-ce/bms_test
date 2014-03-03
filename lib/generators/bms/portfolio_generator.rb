@@ -25,6 +25,7 @@ module Bms
       copy_file 'app/assets/images/files/portfolio.jpg', 'vendor/bms/images/portfolio.jpg'
       copy_file 'tasks/fill_portfolio.rake', 'lib/tasks/fill_portfolio.rake'
       rake 'db:fill_portfolio'
+      run('rm lib/tasks/fill_portfolio.rake')
 
       copy_file 'config/initializers/_rails_admin_portfolio_object.rb', 'vendor/bms/initializers/_rails_admin_portfolio_object.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_portfolio_object.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

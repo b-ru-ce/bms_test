@@ -26,6 +26,7 @@ module Bms
       copy_file 'app/assets/images/files/gallery.jpg', 'vendor/bms/images/gallery.jpg'
       copy_file 'tasks/fill_gallery.rake', 'lib/tasks/fill_gallery.rake'
       rake 'db:fill_gallery'
+      run('rm lib/tasks/fill_gallery.rake')
 
       copy_file 'config/initializers/_rails_admin_gallery.rb', 'vendor/bms/initializers/_rails_admin_gallery.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_gallery.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

@@ -33,6 +33,7 @@ module Bms
 
       copy_file 'tasks/fill_feedback.rake', 'lib/tasks/fill_feedback.rake'
       rake 'db:fill_feedback'
+      run('rm lib/tasks/fill_feedback.rake')
 
       copy_file 'config/initializers/_rails_admin_feedback.rb', 'vendor/bms/initializers/_rails_admin_feedback.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_feedback.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

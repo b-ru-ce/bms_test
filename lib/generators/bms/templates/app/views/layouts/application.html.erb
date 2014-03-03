@@ -11,6 +11,10 @@
     <%= render 'layouts/menu/menu_wrapper' %>
     <%= render 'layouts/breadcrumbs' unless current_page?(root_url) %>
 
+    <div id="loading_div">
+      <img src="/loading.gif">
+      <!--http://preloaders.net/ru/popular -->
+    </div>
     <%= yield  %>
 
     <%=raw MyConfig.get_config('metrika') %>

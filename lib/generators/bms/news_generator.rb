@@ -26,6 +26,7 @@ module Bms
       copy_file 'app/assets/images/files/news.jpg', 'vendor/bms/images/news.jpg'
       copy_file 'tasks/fill_news.rake', 'lib/tasks/fill_news.rake'
       rake 'db:fill_news'
+      run('rm lib/tasks/fill_news.rake')
 
       copy_file 'config/initializers/_rails_admin_news.rb', 'vendor/bms/initializers/_rails_admin_news.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_news.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"

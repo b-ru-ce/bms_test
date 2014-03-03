@@ -25,6 +25,7 @@ module Bms
       copy_file 'app/assets/images/files/service.jpg', 'vendor/bms/images/service.jpg'
       copy_file 'tasks/fill_service.rake', 'lib/tasks/fill_service.rake'
       rake 'db:fill_service'
+      run('rm lib/tasks/fill_service.rake')
 
       copy_file 'config/initializers/_rails_admin_service.rb', 'vendor/bms/initializers/_rails_admin_service.rb'
       inject_into_file 'config/initializers/rails_admin.rb', File.read('vendor/bms/initializers/_rails_admin_service.rb').force_encoding('ASCII-8BIT'), after: "RailsAdmin.config do |config|\n"
