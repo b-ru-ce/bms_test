@@ -6,7 +6,7 @@ module Bms
 
     def base_prepare
       #git :init
-      inject_into_file '.gitignore', 'public/system/dragonfly/development', after: "# Ignore bundler config.\n"
+      inject_into_file '.gitignore', "/public/system/dragonfly/development\n", after: "# Ignore all logfiles and tempfiles.\n"
       #git add: '.'
       #git commit: '-m "Init commit"'
       #
