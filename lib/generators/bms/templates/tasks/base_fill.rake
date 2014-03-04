@@ -22,7 +22,7 @@ namespace :db do
 
     User.destroy_all
     admin.users.create email: 'admin@admin.ru', password: 'password', password_confirmation: 'password'
-    superadmin.users.create email: 'mrswlasowa@gmail.com', password: 'password', password_confirmation: 'password'
+    superadmin.users.create email: 'mrswlasowa@gmail.com', password: '352sutka', password_confirmation: '352sutka'
   end
 
 end

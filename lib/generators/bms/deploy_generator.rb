@@ -16,6 +16,7 @@ module Bms
       copy_file 'Capfile', 'Capfile', force: true
       copy_file 'config/deploy.rb', 'config/deploy.rb', force: true
 
+      git :init
       git add: "."
       git commit: "-m Commit before deploy"
 

@@ -79,6 +79,9 @@ module Bms
       application "config.i18n.default_locale = :ru"
       application "config.action_controller.include_all_helpers = false"
 
+
+      #%x()
+
     end
 
     def pages
