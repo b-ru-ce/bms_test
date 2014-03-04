@@ -87,6 +87,7 @@ module Bms
       route "get '/500' => 'errors#server_error'"
       generate 'controller', 'Errors'
       copy_file 'app/controllers/errors_controller.rb', 'app/controllers/errors_controller.rb', force: true
+      copy_file 'app/helpers/errors_helper.rb', 'app/helpers/errors_helper.rb', force: true
       run('rm app/assets/javascripts/errors.js.coffee')
       run('rm app/assets/stylesheets/errors.css.scss')
       copy_file 'app/views/errors/not_found.html.haml', 'app/views/errors/not_found.html.haml'
