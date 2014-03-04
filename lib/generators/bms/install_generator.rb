@@ -5,9 +5,9 @@ module Bms
     source_root File.expand_path('../templates', __FILE__)
 
     def base_prepare
-      #git :init
-      #git add: '.'
-      #git commit: '-m Init commit'
+      git :init
+      git add: '.'
+      git commit: '-m Init commit'
 
       gem 'haml-rails'
       gem 'html2haml'
