@@ -82,9 +82,9 @@ module Bms
 
       application "config.exceptions_app = self.routes"
 
-      route "match '/404' => 'errors#not_found'"
-      route "match '/422' => 'errors#server_error'"
-      route "match '/500' => 'errors#server_error'"
+      route "get '/404' => 'errors#not_found'"
+      route "get '/422' => 'errors#server_error'"
+      route "get '/500' => 'errors#server_error'"
       generate 'controller', 'Errors'
       copy_file 'app/controllers/errors_controller.rb', 'app/controllers/errors_controller.rb', force: true
       run('rm app/assets/javascripts/errors.js.coffee')
