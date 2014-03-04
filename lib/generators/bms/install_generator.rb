@@ -7,7 +7,7 @@ module Bms
     def base_prepare
       git :init
       git add: '.'
-      git commit: '-m Init commit'
+      git commit: '-m "Init commit"'
 
       gem 'haml-rails'
       gem 'html2haml'
@@ -78,9 +78,6 @@ module Bms
       application "config.time_zone = 'Ekaterinburg'"
       application "config.i18n.default_locale = :ru"
       application "config.action_controller.include_all_helpers = false"
-
-
-      #%x()
 
     end
 
