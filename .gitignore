@@ -9,5 +9,6 @@
 .idea
 
 # Ignore all logfiles and tempfiles.
+/public/system/dragonfly/development
 /log/*.log
 /tmp
